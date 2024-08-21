@@ -50,7 +50,6 @@ class Solution {
 
       if(nrow >= 0 && nrow < mat.length && ncol >= 0 && ncol < mat[0].length && visited_array[nrow][ncol] == false){
         
-        System.out.println("Row = " + nrow + " Col = " + ncol);
         visited_array[nrow][ncol] = true;
         queue.add(new Pair(nrow,ncol,distance+1));
       }
