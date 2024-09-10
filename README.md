@@ -23,6 +23,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [0503-next-greater-element-ii](https://github.com/Utsaghosh15/LeetCode/tree/master/0503-next-greater-element-ii) |
 | [0542-01-matrix](https://github.com/Utsaghosh15/LeetCode/tree/master/0542-01-matrix) |
 ## Dynamic Programming
 |  |
@@ -32,4 +33,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0542-01-matrix](https://github.com/Utsaghosh15/LeetCode/tree/master/0542-01-matrix) |
+## Stack
+|  |
+| ------- |
+| [0503-next-greater-element-ii](https://github.com/Utsaghosh15/LeetCode/tree/master/0503-next-greater-element-ii) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0503-next-greater-element-ii](https://github.com/Utsaghosh15/LeetCode/tree/master/0503-next-greater-element-ii) |
 <!---LeetCode Topics End-->
