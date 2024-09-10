@@ -6,10 +6,11 @@ class Solution {
 
      for(int i=(2*nums.length)-1;i>=0;i--){
 
+      while(!stack.isEmpty() && nums[i%nums.length] >= stack.peek())
+        stack.pop();        
+
       if(i<nums.length){
-       
-       while(!stack.isEmpty() && nums[i] >= stack.peek())
-        stack.pop();
+
 
        if(stack.isEmpty()){
         result[i] = -1;
@@ -21,9 +22,6 @@ class Solution {
        stack.push(nums[i]);
       } 
       else{
-
-        while(!stack.isEmpty() && nums[i%nums.length] >= stack.peek())
-          stack.pop();
 
         stack.push(nums[i%nums.length]);  
       } 
