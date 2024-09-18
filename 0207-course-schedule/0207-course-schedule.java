@@ -25,7 +25,7 @@ class Solution {
 
       List<Integer> topo = new ArrayList<Integer>();
 
-      while(!queue.isEmpty()){f
+      while(!queue.isEmpty()){
 
        int node = queue.peek();
        queue.remove();
