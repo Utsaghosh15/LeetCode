@@ -6,10 +6,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Depth-First Search
 |  |
 | ------- |
+| [0207-course-schedule](https://github.com/Utsaghosh15/LeetCode/tree/master/0207-course-schedule) |
 | [0547-number-of-provinces](https://github.com/Utsaghosh15/LeetCode/tree/master/0547-number-of-provinces) |
 ## Breadth-First Search
 |  |
 | ------- |
+| [0207-course-schedule](https://github.com/Utsaghosh15/LeetCode/tree/master/0207-course-schedule) |
 | [0542-01-matrix](https://github.com/Utsaghosh15/LeetCode/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/Utsaghosh15/LeetCode/tree/master/0547-number-of-provinces) |
 ## Union Find
@@ -19,6 +21,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Graph
 |  |
 | ------- |
+| [0207-course-schedule](https://github.com/Utsaghosh15/LeetCode/tree/master/0207-course-schedule) |
 | [0547-number-of-provinces](https://github.com/Utsaghosh15/LeetCode/tree/master/0547-number-of-provinces) |
 ## Array
 |  |
@@ -41,4 +44,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0503-next-greater-element-ii](https://github.com/Utsaghosh15/LeetCode/tree/master/0503-next-greater-element-ii) |
+## Topological Sort
+|  |
+| ------- |
+| [0207-course-schedule](https://github.com/Utsaghosh15/LeetCode/tree/master/0207-course-schedule) |
 <!---LeetCode Topics End-->
