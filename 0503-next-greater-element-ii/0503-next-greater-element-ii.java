@@ -11,7 +11,6 @@ class Solution {
 
       if(i<nums.length){
 
-
        if(stack.isEmpty()){
         result[i] = -1;
        } 
@@ -22,7 +21,6 @@ class Solution {
        stack.push(nums[i]);
       } 
       else{
-
         stack.push(nums[i%nums.length]);  
       } 
      }
