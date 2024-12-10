@@ -31,6 +31,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Dynamic Programming
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/Utsaghosh15/LeetCode/tree/master/0070-climbing-stairs) |
 | [0542-01-matrix](https://github.com/Utsaghosh15/LeetCode/tree/master/0542-01-matrix) |
 ## Matrix
 |  |
@@ -48,4 +49,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/Utsaghosh15/LeetCode/tree/master/0207-course-schedule) |
+## Math
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/Utsaghosh15/LeetCode/tree/master/0070-climbing-stairs) |
+## Memoization
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/Utsaghosh15/LeetCode/tree/master/0070-climbing-stairs) |
 <!---LeetCode Topics End-->
