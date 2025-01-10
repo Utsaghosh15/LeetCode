@@ -1,57 +1,64 @@
 class Solution {
+    public int[] NextSmallerElement(int[] arr){
 
-    public int[] findNSE(int[] arr){
-     
-     int[] nse = new int[arr.length];
      Stack<Integer> stack = new Stack<>();
+     int[] result = new int[arr.length];
 
      for(int i=arr.length-1;i>=0;--i){
 
-       while(!stack.isEmpty() && arr[stack.peek()] >= arr[i])
-        stack.pop();
-
-       nse[i] = stack.isEmpty() ? arr.length : stack.peek(); 
-
-       stack.push(i);  
-     }
-
-     return nse;
-    }
-
-    public int[] findPSE(int[] arr){
-
-     int[] pse = new int[arr.length];
-     Stack<Integer> stack = new Stack<>();
-
-     for(int i=0;i<arr.length;++i){
-
-       while(!stack.isEmpty() && arr[stack.peek()] > arr[i])
-        stack.pop();
-
-       pse[i] = stack.isEmpty() ? -1 : stack.peek(); 
-
-       stack.push(i);  
-     }
-
-     return pse;
-    }
-
-    public int sumSubarrayMins(int[] arr) {
-
-     long total = 0;
-     int[] nse = findNSE(arr);
-     int[] pse = findPSE(arr);
-     int mod = (int) 1e9 + 7;
-
-     for(int i=0;i<arr.length;++i){
-
-      long left = i - pse[i];
-      long right = nse[i] - i;
+      while(!stack.isEmpty() && arr[stack.peek()] > arr[i])
+        stack.pop(); 
       
-      total += (long) (left * right) % mod * arr[i] % mod;
-      total%=mod;
+
+      if(stack.isEmpty())
+       result[i] = arr.length;
+      else
+       result[i] = stack.peek(); 
+
+       stack.push(i);
      }
 
-     return (int) total;   
+     return result;
+    }
+
+    public int[] PreviousSmallerElement(int[] arr){
+
+     Stack<Integer> stack = new Stack<>();
+     int[] result = new int[arr.length];
+
+     for(int i=0;i<arr.length;++i){
+
+      while(!stack.isEmpty() && arr[stack.peek()] >= arr[i])
+        stack.pop(); 
+      
+
+      if(stack.isEmpty())
+       result[i] = -1;
+      else
+       result[i] = stack.peek(); 
+
+       stack.push(i);
+     }
+
+     return result;
+    }
+    
+    public int sumSubarrayMins(int[] arr) {
+        
+     int[] nse = NextSmallerElement(arr);
+     int[] pse = PreviousSmallerElement(arr);
+     int mod = (int) 1e9 + 7;
+     long total = 0;
+
+     for(int i=0;i<arr.length;i++){
+
+      int left = i - pse[i];
+      int right = nse[i] - i;
+
+      total += (long) (left * right)% mod * arr[i] % mod;
+      total %= mod;
+     }
+
+     return (int) total;
     }
 }
