@@ -4,7 +4,6 @@ class Solution {
 
      Stack<Integer> stack = new Stack<>();
      int[] nums3 = new int[end-start+1];
-     System.out.println(nums3.length);
      int j = nums3.length-1;
 
      for(int i=end;i>=start;i--){
