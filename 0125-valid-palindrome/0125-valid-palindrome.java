@@ -8,10 +8,9 @@ class Solution {
 
      while(start < end){
 
-      if(sArray[start] != sArray[end]){
-       System.out.println(sArray[start]+"__"+sArray[end]);
+      if(sArray[start] != sArray[end])
        return false;
-      }
+      
 
       start++;
       end--;   
