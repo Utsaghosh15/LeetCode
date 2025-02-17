@@ -59,9 +59,9 @@ class Solution {
      start_index+=1;   
     }
 
-    if(nums.length/2 < duplicate)
-      return result;   
+    // if(nums.length/2 < duplicate)
+    //   return result;   
     
-    return -1;
+    return result;
     }
 }
