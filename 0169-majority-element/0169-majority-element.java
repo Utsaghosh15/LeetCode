@@ -25,43 +25,60 @@ class Solution {
     //   }
     // }     
 
-    Arrays.sort(nums);
+    // Arrays.sort(nums);
     
-    int result = 0;
-    int duplicate = 0;
-    int start_index = 0;
+    // int result = 0;
+    // int duplicate = 0;
+    // int start_index = 0;
 
-    while(start_index < nums.length){
+    // while(start_index < nums.length){
 
-     int temp = nums[start_index];
-     int temp_duplicate = 1;
-     int temp_start_index = start_index+1;
+    //  int temp = nums[start_index];
+    //  int temp_duplicate = 1;
+    //  int temp_start_index = start_index+1;
 
-     while(temp_start_index < nums.length){
+    //  while(temp_start_index < nums.length){
 
-      if(temp == nums[temp_start_index])
-       temp_duplicate+=1;
+    //   if(temp == nums[temp_start_index])
+    //    temp_duplicate+=1;
 
-      if(temp != nums[temp_start_index]){
-        start_index = temp_start_index-1;
-        break;
+    //   if(temp != nums[temp_start_index]){
+    //     start_index = temp_start_index-1;
+    //     break;
+    //   }
+
+
+    //   temp_start_index++;  
+    //  }
+
+    //  if(temp_duplicate > duplicate){ 
+    //   result = temp;
+    //   duplicate = temp_duplicate; 
+    //  }
+
+    //  start_index+=1;   
+    // }
+    
+    // return result;
+
+     int count = -1;
+     int result = 0;
+
+     for(int i=0;i<nums.length;i++){
+
+      if(nums[i] == result){
+       count++;
       }
+      else{
+       count-=1; 
 
-
-      temp_start_index++;  
+       if(count < 0){
+        result = nums[i];
+        count = 1;
+       } 
+      }
      }
 
-     if(temp_duplicate > duplicate){ 
-      result = temp;
-      duplicate = temp_duplicate; 
-     }
-
-     start_index+=1;   
-    }
-
-    // if(nums.length/2 < duplicate)
-    //   return result;   
-    
-    return result;
+     return result;
     }
 }
