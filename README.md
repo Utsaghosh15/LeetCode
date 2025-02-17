@@ -9,6 +9,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0104-maximum-depth-of-binary-tree](https://github.com/Utsaghosh15/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0200-number-of-islands](https://github.com/Utsaghosh15/LeetCode/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/Utsaghosh15/LeetCode/tree/master/0207-course-schedule) |
+| [0226-invert-binary-tree](https://github.com/Utsaghosh15/LeetCode/tree/master/0226-invert-binary-tree) |
 | [0547-number-of-provinces](https://github.com/Utsaghosh15/LeetCode/tree/master/0547-number-of-provinces) |
 ## Breadth-First Search
 |  |
@@ -16,6 +17,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0104-maximum-depth-of-binary-tree](https://github.com/Utsaghosh15/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0200-number-of-islands](https://github.com/Utsaghosh15/LeetCode/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/Utsaghosh15/LeetCode/tree/master/0207-course-schedule) |
+| [0226-invert-binary-tree](https://github.com/Utsaghosh15/LeetCode/tree/master/0226-invert-binary-tree) |
 | [0542-01-matrix](https://github.com/Utsaghosh15/LeetCode/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/Utsaghosh15/LeetCode/tree/master/0547-number-of-provinces) |
 | [1036-rotting-oranges](https://github.com/Utsaghosh15/LeetCode/tree/master/1036-rotting-oranges) |
@@ -125,8 +127,10 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Utsaghosh15/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0226-invert-binary-tree](https://github.com/Utsaghosh15/LeetCode/tree/master/0226-invert-binary-tree) |
 ## Binary Tree
 |  |
 | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Utsaghosh15/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0226-invert-binary-tree](https://github.com/Utsaghosh15/LeetCode/tree/master/0226-invert-binary-tree) |
 <!---LeetCode Topics End-->
