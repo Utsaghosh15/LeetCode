@@ -6,14 +6,12 @@ class Solution {
 
      while(start < end){
 
-      if(s.charAt(start) == ' ' || !Character.isLetterOrDigit(s.charAt(start))){
+      while((start < end) && (s.charAt(start) == ' ' || !Character.isLetterOrDigit(s.charAt(start)))){
         start++;
-        continue;
       }
       
-      if(s.charAt(end) == ' ' || !Character.isLetterOrDigit(s.charAt(end))){
+      while((start < end) && (s.charAt(end) == ' ' || !Character.isLetterOrDigit(s.charAt(end)))){
         end--;
-        continue;
       }
 
       if(Character.toLowerCase(s.charAt(start)) != Character.toLowerCase(s.charAt(end)))
