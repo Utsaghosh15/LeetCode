@@ -17,7 +17,6 @@ class Solution {
      int highest_num = 0;
 
 
-
     for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
 
       if(entry.getValue() > highest_num){
