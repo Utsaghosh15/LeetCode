@@ -35,22 +35,33 @@ class Solution {
 
      int temp = nums[start_index];
      int temp_duplicate = 1;
+     int temp_start_index = start_index+1;
 
-     for(int i=start_index+1;i<nums.length;i++){
+     while(temp_start_index < nums.length){
 
-      if(temp == nums[i])
-       temp_duplicate++;
-        
+      if(temp == nums[temp_start_index])
+       temp_duplicate+=1;
+
+      if(temp != nums[temp_start_index]){
+        start_index = temp_start_index-1;
+        break;
+      }
+
+
+      temp_start_index++;  
      }
 
-     if(temp_duplicate > duplicate){
+     if(temp_duplicate > duplicate){ 
       result = temp;
-      duplicate = temp_duplicate;  
+      duplicate = temp_duplicate; 
      }
 
-     start_index++;   
+     start_index+=1;   
     }
 
-     return result;   
+    if(nums.length/2 < duplicate)
+      return result;   
+    
+    return -1;
     }
 }
