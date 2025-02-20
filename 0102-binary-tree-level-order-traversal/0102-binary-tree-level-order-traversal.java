@@ -39,9 +39,9 @@ class Solution {
        if(temp.left != null)
          queue.add(temp.left);
 
-       if(temp.right != null)
-         queue.add(temp.right);  
-
+      if(temp.right != null)
+          queue.add(temp.right);         
+       
 
        level_count--;
       }
