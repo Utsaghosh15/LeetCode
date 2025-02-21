@@ -25,15 +25,11 @@ class Solution {
 
 
      InOrderTraversal(node.left,k);
-
-
-
-     System.out.print(node.val);
      
      if(k == currentNode)
       result = node.val;
 
-     currentNode++; 
+     currentNode+=1; 
      
      InOrderTraversal(node.right,k);
 
