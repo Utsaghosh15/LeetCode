@@ -27,6 +27,7 @@ class Solution {
         int lvl = 1;
         
         while (!queue.isEmpty()) {
+            
             int levelWidth = queue.size();
             List<Integer> lvlItems = new ArrayList<>();
             // Iterate though all the nodes in the level adding them to the solution list.
