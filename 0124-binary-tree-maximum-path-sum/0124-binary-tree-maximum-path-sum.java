@@ -31,12 +31,10 @@ class Solution {
      else if(left < 0 || right < 0){
 
       if(left < 0){
-       max_result = Math.max(max_result,right+node.val);
        left = 0;
       }
 
       if(right < 0){
-        max_result = Math.max(max_result,right+node.val);
         right = 0;
       }  
      }
