@@ -25,23 +25,25 @@ class Solution {
      int left = Math.max(0, maxPathSumTree(node.left));
      int right = Math.max(0, maxPathSumTree(node.right));
 
-    //  if(left < 0 && right < 0){
-    //   max_result = Math.max(max_result,node.val);
-    //  }
-    //  else if(left < 0 || right < 0){
+     if(left < 0 && right < 0){
+      max_result = Math.max(max_result,node.val);
+     }
+     else if(left < 0 || right < 0){
 
-    //   if(left < 0){
-    //    max_result = Math.max(max_result,right+node.val);
-    //   }
+      if(left < 0){
+       max_result = Math.max(max_result,right+node.val);
+       left = 0;
+      }
 
-    //   if(right < 0){
-    //     max_result = Math.max(max_result,right+node.val);
-    //   }  
-    //  }
-    //  else{
-    //   max_result = Math.max(max_result,left+right+node.val);  
-    //  }
-        max_result = Math.max(max_result, node.val + left + right);
+      if(right < 0){
+        max_result = Math.max(max_result,right+node.val);
+        right = 0;
+      }  
+     }
+     else{
+      max_result = Math.max(max_result,left+right+node.val);  
+     }
+        // max_result = Math.max(max_result, node.val + left + right);
      return Math.max(left,right)+node.val;
     }
     
