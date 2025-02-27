@@ -1,34 +1,65 @@
 class Solution {
 
-    public void Permutation(int[] nums, List<List<Integer>> result, List<Integer> sol,boolean[] used){
+    // public void Permutation(int[] nums, List<List<Integer>> result, List<Integer> sol,boolean[] used){
 
-      if(nums.length == sol.size()){
-        result.add(new ArrayList<>(sol));
-        return;
-      }  
+    //   if(nums.length == sol.size()){
+    //     result.add(new ArrayList<>(sol));
+    //     return;
+    //   }  
 
-      for(int i=0;i<nums.length;i++){
+    //   for(int i=0;i<nums.length;i++){
         
-       if(used[i])
-         continue;
+    //    if(used[i])
+    //      continue;
 
+
+    //    sol.add(nums[i]);
+    //    used[i] = true;
+    //    Permutation(nums,result,sol,used);
+       
+    //    sol.remove(sol.size()-1);
+    //    used[i] = false; 
+    //   }
+    // } 
+
+    public void Permutation(int[] nums,List<List<Integer>> result,List<Integer> sol,boolean[] used){
+
+     if(nums.length == sol.size()){
+       result.add(new ArrayList<>(sol));
+       return; 
+     }   
+
+     for(int i=0;i<nums.length;i++){
+
+       if(used[i])
+        continue;
 
        sol.add(nums[i]);
        used[i] = true;
+
        Permutation(nums,result,sol,used);
-       
+
        sol.remove(sol.size()-1);
-       used[i] = false; 
-      }
-    } 
+       used[i] = false;  
+     }
+    }
+
 
     public List<List<Integer>> permute(int[] nums) {
 
-     List<List<Integer>> result = new ArrayList<>();
-     boolean[] used = new boolean[nums.length];
 
-     Permutation(nums,result, new ArrayList<>(),used);
+        List<List<Integer>> result = new ArrayList<>();
+        boolean[] used = new boolean[nums.length];
 
-     return result;
+        Permutation(nums,result,new ArrayList<>(),used);
+
+        return result;
+
+    //  List<List<Integer>> result = new ArrayList<>();
+    //  boolean[] used = new boolean[nums.length];
+
+    //  Permutation(nums,result, new ArrayList<>(),used);
+
+    //  return result;
     }
 }
