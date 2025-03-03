@@ -54,6 +54,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0039-combination-sum](https://github.com/Utsaghosh15/LeetCode/tree/master/0039-combination-sum) |
 | [0046-permutations](https://github.com/Utsaghosh15/LeetCode/tree/master/0046-permutations) |
+| [0078-subsets](https://github.com/Utsaghosh15/LeetCode/tree/master/0078-subsets) |
 | [0084-largest-rectangle-in-histogram](https://github.com/Utsaghosh15/LeetCode/tree/master/0084-largest-rectangle-in-histogram) |
 | [0088-merge-sorted-array](https://github.com/Utsaghosh15/LeetCode/tree/master/0088-merge-sorted-array) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Utsaghosh15/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -189,6 +190,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Bit Manipulation
 |  |
 | ------- |
+| [0078-subsets](https://github.com/Utsaghosh15/LeetCode/tree/master/0078-subsets) |
 | [0222-count-complete-tree-nodes](https://github.com/Utsaghosh15/LeetCode/tree/master/0222-count-complete-tree-nodes) |
 ## Binary Search Tree
 |  |
@@ -209,4 +211,5 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0039-combination-sum](https://github.com/Utsaghosh15/LeetCode/tree/master/0039-combination-sum) |
 | [0046-permutations](https://github.com/Utsaghosh15/LeetCode/tree/master/0046-permutations) |
 | [0077-combinations](https://github.com/Utsaghosh15/LeetCode/tree/master/0077-combinations) |
+| [0078-subsets](https://github.com/Utsaghosh15/LeetCode/tree/master/0078-subsets) |
 <!---LeetCode Topics End-->
