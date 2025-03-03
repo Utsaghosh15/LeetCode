@@ -11,7 +11,6 @@ class Solution {
        Combination(nums,result,sol,start+1);
        sol.remove(sol.size()-1);
        Combination(nums,result,sol,start+1); 
-    
     }
     
     public List<List<Integer>> subsets(int[] nums) {
