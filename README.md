@@ -54,6 +54,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [0033-search-in-rotated-sorted-array](https://github.com/Utsaghosh15/LeetCode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0035-search-insert-position](https://github.com/Utsaghosh15/LeetCode/tree/master/0035-search-insert-position) |
 | [0039-combination-sum](https://github.com/Utsaghosh15/LeetCode/tree/master/0039-combination-sum) |
 | [0046-permutations](https://github.com/Utsaghosh15/LeetCode/tree/master/0046-permutations) |
@@ -195,6 +196,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Binary Search
 |  |
 | ------- |
+| [0033-search-in-rotated-sorted-array](https://github.com/Utsaghosh15/LeetCode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0035-search-insert-position](https://github.com/Utsaghosh15/LeetCode/tree/master/0035-search-insert-position) |
 | [0222-count-complete-tree-nodes](https://github.com/Utsaghosh15/LeetCode/tree/master/0222-count-complete-tree-nodes) |
 ## Bit Manipulation
