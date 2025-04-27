@@ -10,18 +10,19 @@ class Solution {
 
       if(nums[mid] == target)
        return mid;
-      else if(nums[start] <= nums[mid] && target >= nums[start] && target < nums[mid]){   
-       end = mid-1;
+      else if (nums[start] <= nums[mid]) {
+        if (target >= nums[start] && target < nums[mid]) {
+            end = mid - 1;
+        } else {
+            start = mid + 1;
+        }
       } 
-      else if(nums[mid] <= nums[end] && target > nums[mid] && target <= nums[end]){
-       start = mid+1; 
-      }
-      else{
-        if (nums[start] <= nums[mid]) {
+      else {
+        if (target > nums[mid] && target <= nums[end]) {
             start = mid + 1;
         } else {
             end = mid - 1;
-        }        
+        }
       }
      }
 
