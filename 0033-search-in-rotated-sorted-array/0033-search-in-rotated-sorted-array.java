@@ -8,6 +8,7 @@ class Solution {
 
       int mid = start + (end-start)/2;
 
+
       if(nums[mid] == target)
        return mid;
       else if (nums[start] <= nums[mid]) {
