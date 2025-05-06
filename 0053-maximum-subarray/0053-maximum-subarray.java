@@ -1,23 +1,23 @@
 class Solution {
     public int maxSubArray(int[] nums) {
 
-     long sum = 0;
-     long maxi = Long.MIN_VALUE;
+     long currentSum = 0;
+     long resultSum = Long.MIN_VALUE;
 
      for(int i=0;i<nums.length;i++){
 
-          sum += nums[i];
+          currentSum += nums[i];
 
-            if (sum > maxi) {
-                maxi = sum;
+            if (currentSum > resultSum) {
+                resultSum = currentSum;
             }
 
             // If sum < 0: discard the sum calculated
-            if (sum < 0) {
-                sum = 0;
+            if (currentSum < 0) {
+                currentSum = 0;
             }
      }
 
-     return (int) maxi;   
+     return (int) resultSum;   
     }
 }
