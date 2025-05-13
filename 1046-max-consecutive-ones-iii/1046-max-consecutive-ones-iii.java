@@ -12,7 +12,7 @@ class Solution {
         zero+=1;
       }
 
-      if(zero > k){
+      while(zero > k){
 
         if(nums[start] == 0) 
            zero-=1;
