@@ -23,7 +23,7 @@ class Solution {
       if(zero <= k)
        maxlen = Math.max(maxlen,end-start+1);
 
-    //   if(maxlen == (end-start+1))
+      if(maxlen == (end-start+1))
         end+=1; 
   
      }
