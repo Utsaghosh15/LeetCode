@@ -8,14 +8,8 @@ class Solution {
 
      while(end < nums.length){
 
-        
-
       if(nums[end] == 0){
         zero+=1;
-        end+=1;
-      }
-      else{
-        end+=1; 
       }
 
       while(zero > k){
@@ -26,6 +20,7 @@ class Solution {
         start+=1;    
       }
 
+      end+=1; 
       maxlen = Math.max(maxlen,end-start+1);
      }
 
