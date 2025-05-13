@@ -24,11 +24,9 @@ class Solution {
       
       if(map.size() <= 2)
        ans = Math.max(ans,end-start+1);
-      
+       
        end+=1;      
-      
-
-     }
+     }      
 
      return ans;
     }
