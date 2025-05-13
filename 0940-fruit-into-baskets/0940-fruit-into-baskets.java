@@ -11,7 +11,7 @@ class Solution {
 
       map.put(fruits[end], map.getOrDefault(fruits[end], 0) + 1);
 
-      while(map.size() > 2){
+      if(map.size() > 2){
        
        map.put(fruits[start],map.get(fruits[start])-1);
        
@@ -21,10 +21,12 @@ class Solution {
        }
        start+=1;
       }
+      
+      if(map.size() <= 2)
+       ans = Math.max(ans,end-start+1);
 
-      ans = Math.max(ans,end-start+1);
+      end+=1;
 
-      end+=1;       
      }
 
      return ans;
