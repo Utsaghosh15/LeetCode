@@ -12,18 +12,22 @@ class Solution {
         zero+=1;
       }
 
-      while(zero > k){
+      if(zero > k){
 
         if(nums[start] == 0) 
            zero-=1;
 
         start+=1;    
       }
+      
+      if(zero <= k)
+       maxlen = Math.max(maxlen,end-start+1);
 
-      end+=1; 
-      maxlen = Math.max(maxlen,end-start+1);
+    //   if(maxlen == (end-start+1))
+        end+=1; 
+  
      }
 
-     return maxlen-1;   
+     return maxlen;   
     }   
 }
