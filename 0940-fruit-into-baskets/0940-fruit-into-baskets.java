@@ -13,9 +13,8 @@ class Solution {
 
       while(map.size() > 2){
        
-       if(map.containsKey(fruits[start])){
-         map.put(fruits[start],map.get(fruits[start])-1);
-       }
+       map.put(fruits[start],map.get(fruits[start])-1);
+       
 
        if(map.get(fruits[start]) == 0){
         map.remove(fruits[start]);
