@@ -10,7 +10,7 @@ class Solution {
        ans[1] = map.get(target-nums[i]); 
       }
 
-        map.put(nums[i],i);
+      map.put(nums[i],i);
       
      }
 
