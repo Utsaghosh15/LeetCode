@@ -9,47 +9,35 @@
  * }
  */
 class Solution {
-  public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-    
-   ListNode result_list = new ListNode(-1);
-   ListNode result_list_temp = result_list;
-   int carry = 0;
+    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
 
-   while(l1 != null && l2 != null){
+     ListNode l1_temp = l1;
+     ListNode l2_temp = l2;
+     ListNode result = new ListNode(-1);
+     ListNode result_temp = result;
+     int carry = 0;
 
-    ListNode new_node = new ListNode((l1.val+l2.val+carry)%10);
-    result_list_temp.next = new_node;
-    carry = (l1.val+l2.val+carry)/10;
-    l1 = l1.next;
-    l2 = l2.next;
-    result_list_temp = result_list_temp.next;
- 
-   }
 
-   while(l1 != null){
+     while(l1_temp != null || l2_temp != null || carry != 0){
 
-    ListNode new_node = new ListNode((l1.val+carry)%10);
-    result_list_temp.next = new_node;
-    carry = (l1.val+carry)/10;
-    l1 = l1.next;
-    result_list_temp = result_list_temp.next;
-   }
+      int sum = carry;
 
-   while(l2 != null){
+      if(l1_temp != null){
+        sum+=l1_temp.val;
+        l1_temp = l1_temp.next;
+      }
 
-    ListNode new_node = new ListNode((l2.val+carry)%10);
-    result_list_temp.next = new_node;
-    carry = (l2.val+carry)/10;
-    l2 = l2.next;
-    result_list_temp = result_list_temp.next;
-   }
-
-   if(carry != 0){
-
-    ListNode new_node = new ListNode(carry%10);
-    result_list_temp.next = new_node; 
-   }
-
-   return result_list.next; 
-  }
+      if(l2_temp != null){
+        sum+=l2_temp.val;
+        l2_temp = l2_temp.next;
+      }
+      
+      carry = sum/10;
+      ListNode temp = new ListNode(sum%10); 
+      result_temp.next = temp;
+      result_temp = result_temp.next; 
+     }
+     
+     return result.next;
+    }
 }
