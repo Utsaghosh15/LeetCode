@@ -6,8 +6,8 @@ class Solution {
      for(int i=0;i<nums.length;i++){
 
       if(map.containsKey(target-nums[i])){
-       ans[0] = i;
-       ans[1] = map.get(target-nums[i]); 
+       ans[0] = map.get(target-nums[i]);
+       ans[1] = i; 
       }
 
       map.put(nums[i],i);
