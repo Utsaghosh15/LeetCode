@@ -9,30 +9,44 @@
  * }
  */
 class Solution {
+
+    public ListNode removeElement(ListNode node,int val){
+
+     if(node == null)
+      return node;
+
+     node.next = removeElement(node.next,val);
+
+     return (node.val == val) ? node.next : node;    
+    }
+
     public ListNode removeElements(ListNode head, int val) {
 
-     if(head == null)
-      return head;  
 
-     ListNode temp_head = new ListNode(-1);
-     temp_head.next = head;  
+    return removeElement(head,val);    
 
-     ListNode prev = temp_head;
-     ListNode curr = head;
+    //  if(head == null)
+    //   return head;  
 
-     while(curr != null){
+    //  ListNode temp_head = new ListNode(-1);
+    //  temp_head.next = head;  
+
+    //  ListNode prev = temp_head;
+    //  ListNode curr = head;
+
+    //  while(curr != null){
        
-      while(curr != null && curr.val == val){
-       prev.next = curr.next;
-       curr = curr.next;
-      }
+    //   while(curr != null && curr.val == val){
+    //    prev.next = curr.next;
+    //    curr = curr.next;
+    //   }
       
-      prev = curr; 
+    //   prev = curr; 
 
-      if(curr != null)
-        curr = curr.next;
-     }   
+    //   if(curr != null)
+    //     curr = curr.next;
+    //  }   
 
-     return temp_head.next;
+    //  return temp_head.next;
     }
 }
