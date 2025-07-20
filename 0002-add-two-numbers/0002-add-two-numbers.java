@@ -9,35 +9,32 @@
  * }
  */
 class Solution {
-    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {   
 
-     ListNode l1_temp = l1;
-     ListNode l2_temp = l2;
-     ListNode result = new ListNode(-1);
-     ListNode result_temp = result;
      int carry = 0;
+     int total = 0;
+     ListNode result_temp = new ListNode(-1);
+     ListNode result = result_temp;
 
+     while(l1 != null || l2 != null || carry != 0){
 
-     while(l1_temp != null || l2_temp != null || carry != 0){
+      total = carry;
 
-      int sum = carry;
-
-      if(l1_temp != null){
-        sum+=l1_temp.val;
-        l1_temp = l1_temp.next;
+      if(l1 != null){
+        total+=l1.val;
+        l1 = l1.next;
       }
 
-      if(l2_temp != null){
-        sum+=l2_temp.val;
-        l2_temp = l2_temp.next;
+      if(l2 != null){
+        total+=l2.val;
+        l2 = l2.next;
       }
-      
-      carry = sum/10;
-      ListNode temp = new ListNode(sum%10); 
-      result_temp.next = temp;
-      result_temp = result_temp.next; 
+
+      result_temp.next = new ListNode(total%10);
+      carry = total /10;
+      result_temp = result_temp.next;
      }
-     
+
      return result.next;
     }
 }
