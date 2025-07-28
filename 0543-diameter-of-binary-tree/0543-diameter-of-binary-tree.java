@@ -15,25 +15,26 @@
  */
 class Solution {
 
-    int result = 0;
+   int result = 0; 
 
-    public int DiameterOfBinaryTree(TreeNode node){
+   public int DiameterOfTree(TreeNode node){
 
-     if(node == null)
-      return 0;
+    if(node == null)
+     return 0;
 
-     int left = DiameterOfBinaryTree(node.left);
-     int right = DiameterOfBinaryTree(node.right);
+    int left = DiameterOfTree(node.left);
+    int right = DiameterOfTree(node.right);
 
-     result = Math.max(result,left+right);
+    result = Math.max((left+right),result); 
 
-     return Math.max(left,right)+1;    
-    }
+    return Math.max(left,right)+1;  
+   } 
+
 
     public int diameterOfBinaryTree(TreeNode root) {
 
-     DiameterOfBinaryTree(root); 
+     DiameterOfTree(root);   
 
-     return result;    
+     return result;   
     }
 }
