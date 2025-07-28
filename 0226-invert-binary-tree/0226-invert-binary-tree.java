@@ -14,26 +14,23 @@
  * }
  */
 class Solution {
-
-    public void invertTreeNode(TreeNode node){
+    public void invertBinaryTree(TreeNode node){
 
      if(node == null)
-      return;
+      return;   
 
-     TreeNode temp = node.left;
+     TreeNode left = node.left;
      node.left = node.right;
-     node.right = temp;  
+     node.right = left;
 
-     invertTreeNode(node.left);
-     invertTreeNode(node.right);
-
-     return;      
+     invertBinaryTree(node.left);
+     invertBinaryTree(node.right);   
     }
-
+    
     public TreeNode invertTree(TreeNode root) {
-   
-     invertTreeNode(root);
 
-     return root;
+     invertBinaryTree(root);
+
+     return root;   
     }
 }
