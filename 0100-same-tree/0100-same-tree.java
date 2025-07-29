@@ -14,16 +14,20 @@
  * }
  */
 class Solution {
+
+    public boolean isSametree(TreeNode nodeOne,TreeNode nodeTwo){
+     
+     if(nodeOne == null && nodeTwo == null)
+      return true;
+
+     if(nodeOne == null || nodeTwo == null)
+      return false;
+
+     return nodeOne.val == nodeTwo.val && isSametree(nodeOne.left,nodeTwo.left) && isSametree(nodeOne.right,nodeTwo.right);  
+    }
+
     public boolean isSameTree(TreeNode p, TreeNode q) {
 
-     if(p == null || q == null)
-      return (p == q);
-
-    //  if(p == null || q == null)
-    //   return false;
-
-
-
-     return p.val == q.val && isSameTree(p.left,q.left) && isSameTree(p.right,q.right);     
+     return isSametree(p,q);
     }
 }
