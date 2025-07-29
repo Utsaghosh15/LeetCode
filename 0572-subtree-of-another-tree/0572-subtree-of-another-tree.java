@@ -15,32 +15,40 @@
  */
 class Solution {
 
-    public boolean SameTree(TreeNode node,TreeNode subNode){
+    boolean result = false;
 
+    public boolean SubTreeTraverse(TreeNode node,TreeNode subNode){
+     
      if(node == null && subNode == null)
        return true;
 
      if(node == null || subNode == null)
        return false;
-  
-     return (node.val == subNode.val ? true : false) && SameTree(node.left,subNode.left) && SameTree(node.right,subNode.right);
-    }
 
+     return node.val == subNode.val && SubTreeTraverse(node.left,subNode.left) && SubTreeTraverse(node.right,subNode.right);         
+    } 
 
-    public boolean SubTree(TreeNode node,TreeNode subNode){
+    public boolean isSubTree(TreeNode node,TreeNode subNode){
 
      if(node == null)
-       return false;
+      return false;
 
-     if(node.val == subNode.val && SameTree(node,subNode) == true)
+     if(node.val == subNode.val){
+
+      if(SubTreeTraverse(node,subNode) == true){
+       result = true;
        return true;
+      }  
+     }
 
-     return SubTree(node.left,subNode) || SubTree(node.right,subNode);     
+
+     return isSubTree(node.left,subNode) || isSubTree(node.right,subNode);     
     }
 
     public boolean isSubtree(TreeNode root, TreeNode subRoot) {
 
+     isSubTree(root,subRoot); 
 
-     return SubTree(root,subRoot);   
+     return result;  
     }
 }
