@@ -15,7 +15,6 @@
  */
 class Solution {
 
-    boolean result = false;
 
     public boolean SubTreeTraverse(TreeNode node,TreeNode subNode){
      
@@ -35,8 +34,7 @@ class Solution {
 
      if(node.val == subNode.val){
 
-      if(SubTreeTraverse(node,subNode) == true){
-       result = true;
+      if(SubTreeTraverse(node,subNode)){
        return true;
       }  
      }
@@ -47,8 +45,7 @@ class Solution {
 
     public boolean isSubtree(TreeNode root, TreeNode subRoot) {
 
-     isSubTree(root,subRoot); 
+     return isSubTree(root,subRoot); 
 
-     return result;  
     }
 }
