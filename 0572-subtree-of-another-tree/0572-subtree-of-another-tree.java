@@ -32,12 +32,9 @@ class Solution {
      if(node == null)
       return false;
 
-     if(node.val == subNode.val){
-
-      if(SubTreeTraverse(node,subNode)){
+     if(node.val == subNode.val && SubTreeTraverse(node,subNode))
        return true;
-      }  
-     }
+     
 
 
      return isSubTree(node.left,subNode) || isSubTree(node.right,subNode);     
