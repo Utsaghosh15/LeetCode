@@ -27,15 +27,6 @@ class Solution {
      while(!queue.isEmpty()){
       
       List<Integer> list = new LinkedList<>();
-    //   TreeNode temp = queue.poll();
-    //   level_count-=1;
-    //   list.add(temp.val); 
-
-    //   if(temp.left != null) 
-    //     queue.add(temp.left);
-      
-    //   if(temp.right != null)
-    //     queue.add(temp.right);
 
       while(level_count > 0){
 
