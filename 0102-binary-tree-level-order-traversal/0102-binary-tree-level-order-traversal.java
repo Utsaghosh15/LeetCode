@@ -14,42 +14,57 @@
  * }
  */
 class Solution {
-    public List<List<Integer>> levelOrder(TreeNode root) {
 
-     List<List<Integer>> result = new ArrayList<>();
-
-     if(root == null)
-      return result;   
+    public void levelOrder(TreeNode node, List<List<Integer>> result){
+     
+     if(node == null)
+      return;
 
      Queue<TreeNode> queue = new LinkedList<>();
-     queue.add(root); 
-     int level_count = queue.size(); 
-
+     queue.add(node);
+     int level_count = queue.size();
 
      while(!queue.isEmpty()){
       
-      List<Integer> temp_result = new ArrayList<>();
+      List<Integer> list = new LinkedList<>();
+    //   TreeNode temp = queue.poll();
+    //   level_count-=1;
+    //   list.add(temp.val); 
 
-      while(level_count != 0){
+    //   if(temp.left != null) 
+    //     queue.add(temp.left);
+      
+    //   if(temp.right != null)
+    //     queue.add(temp.right);
 
-       TreeNode temp = queue.poll();
+      while(level_count > 0){
 
-       temp_result.add(temp.val);
+       TreeNode temp_node = queue.poll(); 
 
-       if(temp.left != null)
-         queue.add(temp.left);
+       if(temp_node.left != null) 
+        queue.add(temp_node.left);
+      
+       if(temp_node.right != null)
+        queue.add(temp_node.right);
 
-      if(temp.right != null)
-          queue.add(temp.right);         
-       
-
-       level_count--;
+       list.add(temp_node.val);
+       level_count-=1;
       }
 
-      result.add(temp_result);
-      level_count = queue.size();
+      if(level_count == 0)
+       level_count = queue.size();
+
+      result.add(list);
      }
 
-     return result;
+    }
+
+    public List<List<Integer>> levelOrder(TreeNode root) {
+
+     List<List<Integer>> result = new ArrayList<>();  
+
+     levelOrder(root,result);
+
+     return result; 
     }
 }
