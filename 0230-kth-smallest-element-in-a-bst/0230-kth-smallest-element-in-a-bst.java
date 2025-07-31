@@ -16,29 +16,28 @@
 class Solution {
 
     int result = 0;
-    int currentNode = 1;
+    int current = 0;
 
     public void InOrderTraversal(TreeNode node,int k){
-
+     
      if(node == null)
-       return;
-
-
+      return;
+  
      InOrderTraversal(node.left,k);
+     current+=1;
      
-     if(k == currentNode)
-      result = node.val;
+     if(k == current){
+      result = node.val; 
+      return;
+     }
 
-     currentNode+=1; 
-     
      InOrderTraversal(node.right,k);
-
     }
-     
+
     public int kthSmallest(TreeNode root, int k) {
 
      InOrderTraversal(root,k);
 
-     return result;    
+     return result;  
     }
 }
