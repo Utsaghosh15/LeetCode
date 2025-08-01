@@ -44,8 +44,10 @@ class Solution {
 
        start+=1;
       } 
-
-      result = Math.max(result,end-start+1);
+      
+      if(current_k <= k)
+       result = Math.max(result,end-start+1);
+     
       end+=1;  
      }
 
