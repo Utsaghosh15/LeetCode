@@ -1,20 +1,33 @@
 class Solution {
     public int numberOfSubstrings(String s) {
 
-     int index = 0;
-     int ans = 0;
-     int[] hash = {-1,-1,-1};
 
-     while(index < s.length()){
+     int end = 0;
+     int start = 0;
+     int result = 0;
+     char[] chars = s.toCharArray();
+     HashMap<Character,Integer> map = new HashMap<>();
 
-      hash[s.charAt(index)-'a'] = index;  
-      
-      if(hash[0] != -1 && hash[1] != -1 && hash[2] != -1)
-        ans = ans+Math.min(hash[0],Math.min(hash[1],hash[2]))+1;
- 
-      index+=1;  
-     }
 
-     return ans;   
+     while(end < chars.length){
+
+      map.put(chars[end],map.getOrDefault(chars[end],0)+1);
+
+      while(map.size() == 3){
+       
+       result+= chars.length-end;
+
+       map.put(chars[start],map.get(chars[start])-1);
+
+       if(map.get(chars[start]) == 0)
+        map.remove(chars[start]);
+       
+       start+=1;
+      }
+
+      end+=1; 
     }
+    
+    return result;  
+  }
 }
