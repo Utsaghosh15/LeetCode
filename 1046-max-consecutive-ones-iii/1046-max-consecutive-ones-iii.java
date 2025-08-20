@@ -43,7 +43,7 @@ class Solution {
         current_k--;
 
        start+=1;
-      } 
+      }
       
       result = Math.max(result,end-start+1);
      
