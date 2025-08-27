@@ -4,8 +4,7 @@ class Solution {
      
      if(k < 0) 
       return 0;
-
-
+      
      int result = 0;
      int start = 0;
      int end = 0;
@@ -18,9 +17,10 @@ class Solution {
 
       while(map.size() > k){
 
-        int cnt = map.get(nums[start]) - 1;
-                if (cnt == 0) map.remove(nums[start]);
-                else map.put(nums[start], cnt);
+       map.put(nums[start],map.get(nums[start])-1); 
+
+      if(map.get(nums[start]) == 0)
+        map.remove(nums[start]);
 
        start+=1;
       }
