@@ -9,7 +9,7 @@ class Solution {
         int required = 0; // total number of chars we still need (by count)
 
         for (char c : t.toCharArray()) {
-            if (need[c] == 0) { /* just counting unique isn't enough; we use 'required' differently below */ }
+           // if (need[c] == 0) { /* just counting unique isn't enough; we use 'required' differently below */ }
             need[c]++;
             required++; // count total needed characters (with multiplicity)
         }
