@@ -1,45 +1,35 @@
 class Solution {
 
- public void dfs(int i,ArrayList<ArrayList<Integer>> adjList,boolean vis[]){
+    // Keep your signature; use (row) as the city id, and (col) == row when calling.
+    public void DFS(int row, int col, boolean[][] visited_array, int[][] isConnected) {
+        // mark this city as visited using the diagonal cell
+        if (visited_array[row][row]) return;
+        visited_array[row][row] = true;
 
-  vis[i] = true;
+        int n = isConnected.length;
 
-  for(Integer it: adjList.get(i)){
-   if(vis[it] == false)
-    dfs(it,adjList,vis);
-  }
- }   
-
- public int findCircleNum(int[][] isConnected) {
-  
-  ArrayList<ArrayList<Integer>> adjList = new ArrayList<ArrayList<Integer>>();
-
-  for(int i=0;i<isConnected.length;i++){
-    adjList.add(new ArrayList<Integer>());
-  } 
-
-
-// changing adjacent matrix to adjacent list
-  for(int i=0;i<isConnected.length;i++){
-   for(int j=0;j<isConnected.length;j++){
-
-    if(isConnected[i][j] == 1 && i!=j){
-        adjList.get(i).add(j);
-        adjList.get(j).add(i);
+        // scan all possible neighbors (columns) in row = city
+        for (int neighbor = 0; neighbor < n; neighbor++) {
+            if (isConnected[row][neighbor] == 1 && !visited_array[neighbor][neighbor]) {
+                // recurse with (neighbor, neighbor) to keep your method shape
+                DFS(neighbor, neighbor, visited_array, isConnected);
+            }
+        }
     }
-   } 
-  }
 
-  boolean vis[] = new boolean[isConnected.length];
-  int cnt = 0;
+    public int findCircleNum(int[][] isConnected) {
+        int n = isConnected.length;
+        boolean[][] visited_array = new boolean[n][n]; // keep your 2D visited
+        int result = 0;
 
-  for(int i=0;i<isConnected.length;i++){
-   if(vis[i] == false){
-    cnt++;
-    dfs(i,adjList,vis);
-   }
-  }
+        // iterate over cities; call DFS(city, city, ...) to match your signature
+        for (int city = 0; city < n; city++) {
+            if (!visited_array[city][city]) {
+                result += 1;
+                DFS(city, city, visited_array, isConnected);
+            }
+        }
 
-  return cnt;
- }
+        return result;
+    }
 }
