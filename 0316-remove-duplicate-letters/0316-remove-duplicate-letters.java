@@ -4,6 +4,8 @@ class Solution {
      int[] freq = new int[26];
      boolean[] visited = new boolean[26];
      Stack<Character> stack = new Stack<>();
+     StringBuilder sb = new StringBuilder(stack.size());
+
 
      for(char ch : s.toCharArray())
       freq[ch-'a']+=1; 
@@ -25,8 +27,9 @@ class Solution {
       visited[ch-'a'] = true; 
      }
 
-        StringBuilder sb = new StringBuilder(stack.size());
-        for (char c : stack) sb.append(c);
-        return sb.toString();
+     for(char c : stack) 
+      sb.append(c);
+       
+     return sb.toString();
     }
 }
