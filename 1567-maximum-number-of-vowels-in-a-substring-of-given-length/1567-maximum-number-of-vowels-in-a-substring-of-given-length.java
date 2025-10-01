@@ -6,7 +6,7 @@ class Solution {
      int end = 0;
      int start = 0;
 
-     while((end-start)<k-1){
+     while((end-start+1)<k){
       
       if(s.charAt(end) == 'a' || s.charAt(end) == 'e' || s.charAt(end) == 'i' || s.charAt(end) == 'o' || s.charAt(end) == 'u')  
         currVowel++;
