@@ -2,7 +2,7 @@ class Solution {
     public int maxVowels(String s, int k) {
 
      int currVowel = 0;
-     int maxVowel = Integer.MIN_VALUE;
+     int maxVowel = 0;
      int end = 0;
      int start = 0;
 
@@ -14,7 +14,7 @@ class Solution {
       end++; 
      }
 
-     maxVowel = Math.max(currVowel,maxVowel);
+     maxVowel = currVowel;
 
      while(end < s.length()){
 
