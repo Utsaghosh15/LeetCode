@@ -23,6 +23,9 @@ class Solution {
 
       maxVowel = Math.max(currVowel,maxVowel);
        
+      if(maxVowel == k)
+       return k;
+
       if(s.charAt(start) == 'a' || s.charAt(start) == 'e' || s.charAt(start) == 'i' || s.charAt(start) == 'o' || s.charAt(start) == 'u')  
         currVowel--;       
 
