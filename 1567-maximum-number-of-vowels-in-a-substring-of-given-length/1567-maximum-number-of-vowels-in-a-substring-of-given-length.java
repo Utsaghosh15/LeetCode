@@ -6,7 +6,7 @@ class Solution {
      int end = 0;
      int start = 0;
 
-     while((end-start+1)<k){
+     while((end-start)<k){
       
       if(s.charAt(end) == 'a' || s.charAt(end) == 'e' || s.charAt(end) == 'i' || s.charAt(end) == 'o' || s.charAt(end) == 'u')  
         currVowel++;
@@ -14,23 +14,23 @@ class Solution {
       end++; 
      }
 
-     maxVowel = currVowel;
+     maxVowel = Math.max(currVowel,maxVowel);
+
+     if(maxVowel == k)
+       return k;
 
      while(end < s.length()){
 
       if(s.charAt(end) == 'a' || s.charAt(end) == 'e' || s.charAt(end) == 'i' || s.charAt(end) == 'o' || s.charAt(end) == 'u')  
         currVowel++;  
 
-      maxVowel = Math.max(currVowel,maxVowel);
-       
-      if(maxVowel == k)
-       return k;
-
       if(s.charAt(start) == 'a' || s.charAt(start) == 'e' || s.charAt(start) == 'i' || s.charAt(start) == 'o' || s.charAt(start) == 'u')  
-        currVowel--;       
+        currVowel--;
 
-      end+=1;
-      start+=1;
+      maxVowel = Math.max(currVowel,maxVowel);
+
+      end++;
+      start++;
      }
 
      return maxVowel;    
