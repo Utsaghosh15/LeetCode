@@ -140,6 +140,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0002-add-two-numbers](https://github.com/Utsaghosh15/LeetCode/tree/master/0002-add-two-numbers) |
 | [0070-climbing-stairs](https://github.com/Utsaghosh15/LeetCode/tree/master/0070-climbing-stairs) |
+| [1885-count-number-of-homogenous-substrings](https://github.com/Utsaghosh15/LeetCode/tree/master/1885-count-number-of-homogenous-substrings) |
 ## Memoization
 |  |
 | ------- |
@@ -162,6 +163,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0657-robot-return-to-origin](https://github.com/Utsaghosh15/LeetCode/tree/master/0657-robot-return-to-origin) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Utsaghosh15/LeetCode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/Utsaghosh15/LeetCode/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
+| [1885-count-number-of-homogenous-substrings](https://github.com/Utsaghosh15/LeetCode/tree/master/1885-count-number-of-homogenous-substrings) |
 ## Greedy
 |  |
 | ------- |
