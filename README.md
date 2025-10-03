@@ -163,6 +163,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0402-remove-k-digits](https://github.com/Utsaghosh15/LeetCode/tree/master/0402-remove-k-digits) |
 | [0424-longest-repeating-character-replacement](https://github.com/Utsaghosh15/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
 | [0657-robot-return-to-origin](https://github.com/Utsaghosh15/LeetCode/tree/master/0657-robot-return-to-origin) |
+| [1252-break-a-palindrome](https://github.com/Utsaghosh15/LeetCode/tree/master/1252-break-a-palindrome) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Utsaghosh15/LeetCode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/Utsaghosh15/LeetCode/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [1885-count-number-of-homogenous-substrings](https://github.com/Utsaghosh15/LeetCode/tree/master/1885-count-number-of-homogenous-substrings) |
@@ -172,6 +173,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0316-remove-duplicate-letters](https://github.com/Utsaghosh15/LeetCode/tree/master/0316-remove-duplicate-letters) |
 | [0402-remove-k-digits](https://github.com/Utsaghosh15/LeetCode/tree/master/0402-remove-k-digits) |
+| [1252-break-a-palindrome](https://github.com/Utsaghosh15/LeetCode/tree/master/1252-break-a-palindrome) |
 ## Hash Table
 |  |
 | ------- |
