@@ -122,6 +122,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0503-next-greater-element-ii](https://github.com/Utsaghosh15/LeetCode/tree/master/0503-next-greater-element-ii) |
 | [0735-asteroid-collision](https://github.com/Utsaghosh15/LeetCode/tree/master/0735-asteroid-collision) |
 | [0943-sum-of-subarray-minimums](https://github.com/Utsaghosh15/LeetCode/tree/master/0943-sum-of-subarray-minimums) |
+| [2800-minimum-string-length-after-removing-substrings](https://github.com/Utsaghosh15/LeetCode/tree/master/2800-minimum-string-length-after-removing-substrings) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -150,6 +151,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0657-robot-return-to-origin](https://github.com/Utsaghosh15/LeetCode/tree/master/0657-robot-return-to-origin) |
 | [0735-asteroid-collision](https://github.com/Utsaghosh15/LeetCode/tree/master/0735-asteroid-collision) |
+| [2800-minimum-string-length-after-removing-substrings](https://github.com/Utsaghosh15/LeetCode/tree/master/2800-minimum-string-length-after-removing-substrings) |
 ## String
 |  |
 | ------- |
@@ -164,6 +166,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Utsaghosh15/LeetCode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/Utsaghosh15/LeetCode/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [1885-count-number-of-homogenous-substrings](https://github.com/Utsaghosh15/LeetCode/tree/master/1885-count-number-of-homogenous-substrings) |
+| [2800-minimum-string-length-after-removing-substrings](https://github.com/Utsaghosh15/LeetCode/tree/master/2800-minimum-string-length-after-removing-substrings) |
 ## Greedy
 |  |
 | ------- |
