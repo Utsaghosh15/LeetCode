@@ -92,6 +92,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1034-subarrays-with-k-different-integers](https://github.com/Utsaghosh15/LeetCode/tree/master/1034-subarrays-with-k-different-integers) |
 | [1036-rotting-oranges](https://github.com/Utsaghosh15/LeetCode/tree/master/1036-rotting-oranges) |
 | [1046-max-consecutive-ones-iii](https://github.com/Utsaghosh15/LeetCode/tree/master/1046-max-consecutive-ones-iii) |
+| [2374-steps-to-make-array-non-decreasing](https://github.com/Utsaghosh15/LeetCode/tree/master/2374-steps-to-make-array-non-decreasing) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -122,6 +123,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0503-next-greater-element-ii](https://github.com/Utsaghosh15/LeetCode/tree/master/0503-next-greater-element-ii) |
 | [0735-asteroid-collision](https://github.com/Utsaghosh15/LeetCode/tree/master/0735-asteroid-collision) |
 | [0943-sum-of-subarray-minimums](https://github.com/Utsaghosh15/LeetCode/tree/master/0943-sum-of-subarray-minimums) |
+| [2374-steps-to-make-array-non-decreasing](https://github.com/Utsaghosh15/LeetCode/tree/master/2374-steps-to-make-array-non-decreasing) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/Utsaghosh15/LeetCode/tree/master/2800-minimum-string-length-after-removing-substrings) |
 ## Monotonic Stack
 |  |
@@ -132,6 +134,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0496-next-greater-element-i](https://github.com/Utsaghosh15/LeetCode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Utsaghosh15/LeetCode/tree/master/0503-next-greater-element-ii) |
 | [0943-sum-of-subarray-minimums](https://github.com/Utsaghosh15/LeetCode/tree/master/0943-sum-of-subarray-minimums) |
+| [2374-steps-to-make-array-non-decreasing](https://github.com/Utsaghosh15/LeetCode/tree/master/2374-steps-to-make-array-non-decreasing) |
 ## Topological Sort
 |  |
 | ------- |
@@ -312,6 +315,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0206-reverse-linked-list](https://github.com/Utsaghosh15/LeetCode/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/Utsaghosh15/LeetCode/tree/master/0234-palindrome-linked-list) |
 | [0237-delete-node-in-a-linked-list](https://github.com/Utsaghosh15/LeetCode/tree/master/0237-delete-node-in-a-linked-list) |
+| [2374-steps-to-make-array-non-decreasing](https://github.com/Utsaghosh15/LeetCode/tree/master/2374-steps-to-make-array-non-decreasing) |
 ## Sliding Window
 |  |
 | ------- |
