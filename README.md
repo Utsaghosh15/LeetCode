@@ -92,6 +92,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1034-subarrays-with-k-different-integers](https://github.com/Utsaghosh15/LeetCode/tree/master/1034-subarrays-with-k-different-integers) |
 | [1036-rotting-oranges](https://github.com/Utsaghosh15/LeetCode/tree/master/1036-rotting-oranges) |
 | [1046-max-consecutive-ones-iii](https://github.com/Utsaghosh15/LeetCode/tree/master/1046-max-consecutive-ones-iii) |
+| [1514-minimum-value-to-get-positive-step-by-step-sum](https://github.com/Utsaghosh15/LeetCode/tree/master/1514-minimum-value-to-get-positive-step-by-step-sum) |
 | [2374-steps-to-make-array-non-decreasing](https://github.com/Utsaghosh15/LeetCode/tree/master/2374-steps-to-make-array-non-decreasing) |
 ## Dynamic Programming
 |  |
@@ -333,6 +334,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0966-binary-subarrays-with-sum](https://github.com/Utsaghosh15/LeetCode/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/Utsaghosh15/LeetCode/tree/master/1046-max-consecutive-ones-iii) |
+| [1514-minimum-value-to-get-positive-step-by-step-sum](https://github.com/Utsaghosh15/LeetCode/tree/master/1514-minimum-value-to-get-positive-step-by-step-sum) |
 ## Recursion
 |  |
 | ------- |
