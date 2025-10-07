@@ -81,6 +81,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0169-majority-element](https://github.com/Utsaghosh15/LeetCode/tree/master/0169-majority-element) |
 | [0200-number-of-islands](https://github.com/Utsaghosh15/LeetCode/tree/master/0200-number-of-islands) |
 | [0287-find-the-duplicate-number](https://github.com/Utsaghosh15/LeetCode/tree/master/0287-find-the-duplicate-number) |
+| [0349-intersection-of-two-arrays](https://github.com/Utsaghosh15/LeetCode/tree/master/0349-intersection-of-two-arrays) |
 | [0455-assign-cookies](https://github.com/Utsaghosh15/LeetCode/tree/master/0455-assign-cookies) |
 | [0496-next-greater-element-i](https://github.com/Utsaghosh15/LeetCode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Utsaghosh15/LeetCode/tree/master/0503-next-greater-element-ii) |
@@ -191,6 +192,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0076-minimum-window-substring](https://github.com/Utsaghosh15/LeetCode/tree/master/0076-minimum-window-substring) |
 | [0141-linked-list-cycle](https://github.com/Utsaghosh15/LeetCode/tree/master/0141-linked-list-cycle) |
 | [0169-majority-element](https://github.com/Utsaghosh15/LeetCode/tree/master/0169-majority-element) |
+| [0349-intersection-of-two-arrays](https://github.com/Utsaghosh15/LeetCode/tree/master/0349-intersection-of-two-arrays) |
 | [0424-longest-repeating-character-replacement](https://github.com/Utsaghosh15/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
 | [0496-next-greater-element-i](https://github.com/Utsaghosh15/LeetCode/tree/master/0496-next-greater-element-i) |
 | [0940-fruit-into-baskets](https://github.com/Utsaghosh15/LeetCode/tree/master/0940-fruit-into-baskets) |
@@ -207,12 +209,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0143-reorder-list](https://github.com/Utsaghosh15/LeetCode/tree/master/0143-reorder-list) |
 | [0234-palindrome-linked-list](https://github.com/Utsaghosh15/LeetCode/tree/master/0234-palindrome-linked-list) |
 | [0287-find-the-duplicate-number](https://github.com/Utsaghosh15/LeetCode/tree/master/0287-find-the-duplicate-number) |
+| [0349-intersection-of-two-arrays](https://github.com/Utsaghosh15/LeetCode/tree/master/0349-intersection-of-two-arrays) |
 | [0455-assign-cookies](https://github.com/Utsaghosh15/LeetCode/tree/master/0455-assign-cookies) |
 ## Sorting
 |  |
 | ------- |
 | [0088-merge-sorted-array](https://github.com/Utsaghosh15/LeetCode/tree/master/0088-merge-sorted-array) |
 | [0169-majority-element](https://github.com/Utsaghosh15/LeetCode/tree/master/0169-majority-element) |
+| [0349-intersection-of-two-arrays](https://github.com/Utsaghosh15/LeetCode/tree/master/0349-intersection-of-two-arrays) |
 | [0455-assign-cookies](https://github.com/Utsaghosh15/LeetCode/tree/master/0455-assign-cookies) |
 ## Divide and Conquer
 |  |
@@ -281,6 +285,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0162-find-peak-element](https://github.com/Utsaghosh15/LeetCode/tree/master/0162-find-peak-element) |
 | [0222-count-complete-tree-nodes](https://github.com/Utsaghosh15/LeetCode/tree/master/0222-count-complete-tree-nodes) |
 | [0287-find-the-duplicate-number](https://github.com/Utsaghosh15/LeetCode/tree/master/0287-find-the-duplicate-number) |
+| [0349-intersection-of-two-arrays](https://github.com/Utsaghosh15/LeetCode/tree/master/0349-intersection-of-two-arrays) |
 | [1046-max-consecutive-ones-iii](https://github.com/Utsaghosh15/LeetCode/tree/master/1046-max-consecutive-ones-iii) |
 ## Bit Manipulation
 |  |
