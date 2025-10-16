@@ -1,19 +1,23 @@
 class Solution {
 
-    public void Combination(int[] candidates,int target,int index,int currentSum,List<List<Integer>> result,List<Integer> sol){
+    public void combinationSumFunc(int index,int[] candidates,int target,List<Integer> list, List<List<Integer>> result){
 
-      if(currentSum == target){
-        result.add(new ArrayList<>(sol));
-        return;
-      }        
+      if(index == candidates.length){
+       if(target == 0){
+        result.add(new ArrayList<>(list)); 
+       }
+       return;
+      }
 
-      if(index >= candidates.length || currentSum > target)
-        return;
 
-      sol.add(candidates[index]);
-      Combination(candidates,target,index,currentSum+candidates[index],result,sol);
-      sol.remove(sol.size()-1);
-      Combination(candidates,target,index+1,currentSum,result,sol);
+      if(target - candidates[index] >= 0) {
+       
+       list.add(candidates[index]);
+       combinationSumFunc(index,candidates,target-candidates[index],list,result);
+       list.remove(list.size()-1);
+      }
+
+      combinationSumFunc(index+1,candidates,target,list,result);
 
     }
 
@@ -21,8 +25,8 @@ class Solution {
 
      List<List<Integer>> result = new ArrayList<>();
 
-     Combination(candidates,target,0,0,result,new ArrayList<>());
+     combinationSumFunc(0,candidates,target,new ArrayList<>(),result);
 
-     return result;  
+     return result;   
     }
 }
