@@ -15,7 +15,7 @@ class Solution {
        continue;
       }
 
-      if(modify < nums.length && (start+1) < nums.length) 
+      if(start+1 < nums.length) 
        nums[modify] = nums[start+1];
       
       modify+=1;
