@@ -20,15 +20,15 @@ Arrays.sort(nums);
                 if (sum == 0) {
                     result.add(Arrays.asList(nums[i], nums[left], nums[right]));
 
-               
-                    // skip duplicate "second" element
-                    while (left < right && nums[left] == nums[left + 1]) left++;
-
-                    // skip duplicate "third" element
-                    while (left < right && nums[right] == nums[right - 1]) right--;
-
                     left++;
                     right--;
+               
+                    // skip duplicate "second" element
+                    while (left < right && nums[left] == nums[left - 1]) left++;
+
+                    // skip duplicate "third" element
+                    while (left < right && nums[right] == nums[right + 1]) right--;
+
 
                 } else if (sum < 0) {
                     left++;
