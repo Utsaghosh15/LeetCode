@@ -134,6 +134,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0503-next-greater-element-ii](https://github.com/Utsaghosh15/LeetCode/tree/master/0503-next-greater-element-ii) |
 | [0735-asteroid-collision](https://github.com/Utsaghosh15/LeetCode/tree/master/0735-asteroid-collision) |
 | [0943-sum-of-subarray-minimums](https://github.com/Utsaghosh15/LeetCode/tree/master/0943-sum-of-subarray-minimums) |
+| [1047-remove-all-adjacent-duplicates-in-string](https://github.com/Utsaghosh15/LeetCode/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [2374-steps-to-make-array-non-decreasing](https://github.com/Utsaghosh15/LeetCode/tree/master/2374-steps-to-make-array-non-decreasing) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/Utsaghosh15/LeetCode/tree/master/2800-minimum-string-length-after-removing-substrings) |
 ## Monotonic Stack
@@ -179,6 +180,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0402-remove-k-digits](https://github.com/Utsaghosh15/LeetCode/tree/master/0402-remove-k-digits) |
 | [0424-longest-repeating-character-replacement](https://github.com/Utsaghosh15/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
 | [0657-robot-return-to-origin](https://github.com/Utsaghosh15/LeetCode/tree/master/0657-robot-return-to-origin) |
+| [1047-remove-all-adjacent-duplicates-in-string](https://github.com/Utsaghosh15/LeetCode/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [1252-break-a-palindrome](https://github.com/Utsaghosh15/LeetCode/tree/master/1252-break-a-palindrome) |
 | [1430-find-the-k-beauty-of-a-number](https://github.com/Utsaghosh15/LeetCode/tree/master/1430-find-the-k-beauty-of-a-number) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Utsaghosh15/LeetCode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
