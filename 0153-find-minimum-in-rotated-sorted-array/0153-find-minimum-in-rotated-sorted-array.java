@@ -7,10 +7,8 @@ class Solution {
             int mid = low + (high - low) / 2;
 
             if (nums[mid] > nums[high]) {
-                // min is in the right half
                 low = mid + 1;
             } else {
-                // min is in the left half (including mid)
                 high = mid;
             }
         }
