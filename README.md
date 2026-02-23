@@ -94,6 +94,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0542-01-matrix](https://github.com/Utsaghosh15/LeetCode/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/Utsaghosh15/LeetCode/tree/master/0733-flood-fill) |
 | [0735-asteroid-collision](https://github.com/Utsaghosh15/LeetCode/tree/master/0735-asteroid-collision) |
+| [0852-peak-index-in-a-mountain-array](https://github.com/Utsaghosh15/LeetCode/tree/master/0852-peak-index-in-a-mountain-array) |
 | [0940-fruit-into-baskets](https://github.com/Utsaghosh15/LeetCode/tree/master/0940-fruit-into-baskets) |
 | [0943-sum-of-subarray-minimums](https://github.com/Utsaghosh15/LeetCode/tree/master/0943-sum-of-subarray-minimums) |
 | [0966-binary-subarrays-with-sum](https://github.com/Utsaghosh15/LeetCode/tree/master/0966-binary-subarrays-with-sum) |
@@ -307,6 +308,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0222-count-complete-tree-nodes](https://github.com/Utsaghosh15/LeetCode/tree/master/0222-count-complete-tree-nodes) |
 | [0287-find-the-duplicate-number](https://github.com/Utsaghosh15/LeetCode/tree/master/0287-find-the-duplicate-number) |
 | [0349-intersection-of-two-arrays](https://github.com/Utsaghosh15/LeetCode/tree/master/0349-intersection-of-two-arrays) |
+| [0852-peak-index-in-a-mountain-array](https://github.com/Utsaghosh15/LeetCode/tree/master/0852-peak-index-in-a-mountain-array) |
 | [1046-max-consecutive-ones-iii](https://github.com/Utsaghosh15/LeetCode/tree/master/1046-max-consecutive-ones-iii) |
 ## Bit Manipulation
 |  |
