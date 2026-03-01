@@ -183,6 +183,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0402-remove-k-digits](https://github.com/Utsaghosh15/LeetCode/tree/master/0402-remove-k-digits) |
 | [0424-longest-repeating-character-replacement](https://github.com/Utsaghosh15/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
 | [0657-robot-return-to-origin](https://github.com/Utsaghosh15/LeetCode/tree/master/0657-robot-return-to-origin) |
+| [0767-reorganize-string](https://github.com/Utsaghosh15/LeetCode/tree/master/0767-reorganize-string) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/Utsaghosh15/LeetCode/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [1252-break-a-palindrome](https://github.com/Utsaghosh15/LeetCode/tree/master/1252-break-a-palindrome) |
 | [1430-find-the-k-beauty-of-a-number](https://github.com/Utsaghosh15/LeetCode/tree/master/1430-find-the-k-beauty-of-a-number) |
@@ -197,6 +198,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0316-remove-duplicate-letters](https://github.com/Utsaghosh15/LeetCode/tree/master/0316-remove-duplicate-letters) |
 | [0402-remove-k-digits](https://github.com/Utsaghosh15/LeetCode/tree/master/0402-remove-k-digits) |
 | [0455-assign-cookies](https://github.com/Utsaghosh15/LeetCode/tree/master/0455-assign-cookies) |
+| [0767-reorganize-string](https://github.com/Utsaghosh15/LeetCode/tree/master/0767-reorganize-string) |
 | [1252-break-a-palindrome](https://github.com/Utsaghosh15/LeetCode/tree/master/1252-break-a-palindrome) |
 ## Hash Table
 |  |
@@ -209,6 +211,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0349-intersection-of-two-arrays](https://github.com/Utsaghosh15/LeetCode/tree/master/0349-intersection-of-two-arrays) |
 | [0424-longest-repeating-character-replacement](https://github.com/Utsaghosh15/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
 | [0496-next-greater-element-i](https://github.com/Utsaghosh15/LeetCode/tree/master/0496-next-greater-element-i) |
+| [0767-reorganize-string](https://github.com/Utsaghosh15/LeetCode/tree/master/0767-reorganize-string) |
 | [0940-fruit-into-baskets](https://github.com/Utsaghosh15/LeetCode/tree/master/0940-fruit-into-baskets) |
 | [0966-binary-subarrays-with-sum](https://github.com/Utsaghosh15/LeetCode/tree/master/0966-binary-subarrays-with-sum) |
 | [1034-subarrays-with-k-different-integers](https://github.com/Utsaghosh15/LeetCode/tree/master/1034-subarrays-with-k-different-integers) |
@@ -241,6 +244,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0169-majority-element](https://github.com/Utsaghosh15/LeetCode/tree/master/0169-majority-element) |
 | [0349-intersection-of-two-arrays](https://github.com/Utsaghosh15/LeetCode/tree/master/0349-intersection-of-two-arrays) |
 | [0455-assign-cookies](https://github.com/Utsaghosh15/LeetCode/tree/master/0455-assign-cookies) |
+| [0767-reorganize-string](https://github.com/Utsaghosh15/LeetCode/tree/master/0767-reorganize-string) |
 | [0977-squares-of-a-sorted-array](https://github.com/Utsaghosh15/LeetCode/tree/master/0977-squares-of-a-sorted-array) |
 ## Divide and Conquer
 |  |
@@ -251,6 +255,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/Utsaghosh15/LeetCode/tree/master/0169-majority-element) |
+| [0767-reorganize-string](https://github.com/Utsaghosh15/LeetCode/tree/master/0767-reorganize-string) |
 | [1034-subarrays-with-k-different-integers](https://github.com/Utsaghosh15/LeetCode/tree/master/1034-subarrays-with-k-different-integers) |
 ## Tree
 |  |
@@ -393,4 +398,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0278-first-bad-version](https://github.com/Utsaghosh15/LeetCode/tree/master/0278-first-bad-version) |
 | [0374-guess-number-higher-or-lower](https://github.com/Utsaghosh15/LeetCode/tree/master/0374-guess-number-higher-or-lower) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0767-reorganize-string](https://github.com/Utsaghosh15/LeetCode/tree/master/0767-reorganize-string) |
 <!---LeetCode Topics End-->
