@@ -12,7 +12,7 @@ class Solution {
 
       while((start+1 < nums.length) && nums[start] == nums[start+1]){
        start+=1;
-       continue;
+    //    continue;
       }
 
       if(start+1 < nums.length) 
