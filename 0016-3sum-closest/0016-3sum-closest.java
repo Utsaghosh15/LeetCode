@@ -12,11 +12,11 @@ class Solution {
                 int sum = nums[i] + nums[left] + nums[right];
 
                 if (Math.abs(target - sum) < Math.abs(target - result)) {
-                    result = sum; // ✅ update if this sum is closer
+                    result = sum; 
                 }
 
                 if (sum == target) {
-                    return result; // ✅ can't get closer than exact match
+                    return result;
                 } else if (sum < target) {
                     left++;
                 } else {
