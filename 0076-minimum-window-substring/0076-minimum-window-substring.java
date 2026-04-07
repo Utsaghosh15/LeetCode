@@ -1,49 +1,52 @@
 import java.util.*;
 
 class Solution {
+
     public String minWindow(String s, String t) {
 
-        if(s == null || t == null || s.length() < t.length()) 
-           return "";
+        if (s.length() < t.length()) return "";
 
-    
-        int[] need = new int[128];
-        int required = 0;
+        int[] needed = new int[256];
+        int[] have = new int[256];
 
         for (char c : t.toCharArray()) {
-            need[c]++;
-            required++; 
+            needed[c]++;
         }
 
-        int left = 0, right = 0;
-        int minLen = Integer.MAX_VALUE, minL = 0;
+        int required = t.length();
+        int formed = 0;
 
-        while (right < s.length()) {
-            char rc = s.charAt(right);
+        int left = 0;
+        int minLen = Integer.MAX_VALUE;
+        int start = 0;
 
-            if(need[rc] > 0) 
-              required--;
-            
-            need[rc]--;
-            right++;
+        for (int right = 0; right < s.length(); right++) {
 
-            while (required == 0) {
+            char c = s.charAt(right);
+            have[c]++;
 
-                if (right - left < minLen) {
-                    minLen = right - left;
-                    minL = left;
+            if (needed[c] > 0 && have[c] <= needed[c]) {
+                formed++;
+            }
+
+            while (formed == required) {
+
+                if (right - left + 1 < minLen) {
+                    minLen = right - left + 1;
+                    start = left;
                 }
 
-                char lc = s.charAt(left);
-                need[lc]++; 
+                char leftChar = s.charAt(left);
+                have[leftChar]--;
 
-                if(need[lc] > 0) 
-                  required++;
-                
+                if (needed[leftChar] > 0 && have[leftChar] < needed[leftChar]) {
+                    formed--;
+                }
+
                 left++;
             }
         }
 
-        return minLen == Integer.MAX_VALUE ? "" : s.substring(minL, minL + minLen);
+        return minLen == Integer.MAX_VALUE ? "" : s.substring(start, start + minLen);
     }
 }
