@@ -76,6 +76,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0046-permutations](https://github.com/Utsaghosh15/LeetCode/tree/master/0046-permutations) |
 | [0053-maximum-subarray](https://github.com/Utsaghosh15/LeetCode/tree/master/0053-maximum-subarray) |
 | [0056-merge-intervals](https://github.com/Utsaghosh15/LeetCode/tree/master/0056-merge-intervals) |
+| [0057-insert-interval](https://github.com/Utsaghosh15/LeetCode/tree/master/0057-insert-interval) |
 | [0075-sort-colors](https://github.com/Utsaghosh15/LeetCode/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/Utsaghosh15/LeetCode/tree/master/0078-subsets) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/Utsaghosh15/LeetCode/tree/master/0081-search-in-rotated-sorted-array-ii) |
