@@ -6,8 +6,11 @@ class Solution {
 
      for(int i=0;i<s.length();i++){
 
-       if(!stack.isEmpty() && stack.peek() == s.charAt(i))
-        stack.pop();
+       if(!stack.isEmpty() && stack.peek() == s.charAt(i)){
+
+        while(!stack.isEmpty() && stack.peek() == s.charAt(i))
+         stack.pop();
+       }
        else
         stack.push(s.charAt(i));  
      }
