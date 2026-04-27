@@ -17,10 +17,7 @@ class Solution {
         high = mid-1;
       }
      }
-
-     if(result == 0 || result == arr.length-1)
-       return -1;
-
+     
      return result;   
     }
 }
