@@ -7,7 +7,7 @@ class Solution {
 
      while(low <= high){
       
-      int mid = (high+low)/2;
+      int mid = low+(high-low)/2;
 
       if(arr[mid] < arr[mid+1]){
         low = mid+1;
@@ -17,7 +17,7 @@ class Solution {
         high = mid-1;
       }
      }
-     
+
      return result;   
     }
 }
