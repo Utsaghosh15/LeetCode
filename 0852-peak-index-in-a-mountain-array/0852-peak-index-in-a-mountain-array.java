@@ -3,7 +3,6 @@ class Solution {
 
      int low = 0;
      int high = arr.length-1;
-     int result = 0;
 
      while(low < high){
       
@@ -13,11 +12,10 @@ class Solution {
         low = mid+1;
       } 
       else{
-        // result = mid;
         high = mid;
       }
      }
 
-     return high;   
+     return low;   
     }
 }
