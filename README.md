@@ -74,6 +74,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0039-combination-sum](https://github.com/Utsaghosh15/LeetCode/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/Utsaghosh15/LeetCode/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/Utsaghosh15/LeetCode/tree/master/0046-permutations) |
+| [0049-group-anagrams](https://github.com/Utsaghosh15/LeetCode/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/Utsaghosh15/LeetCode/tree/master/0053-maximum-subarray) |
 | [0056-merge-intervals](https://github.com/Utsaghosh15/LeetCode/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/Utsaghosh15/LeetCode/tree/master/0057-insert-interval) |
@@ -183,6 +184,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0003-longest-substring-without-repeating-characters](https://github.com/Utsaghosh15/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0008-string-to-integer-atoi](https://github.com/Utsaghosh15/LeetCode/tree/master/0008-string-to-integer-atoi) |
 | [0020-valid-parentheses](https://github.com/Utsaghosh15/LeetCode/tree/master/0020-valid-parentheses) |
+| [0049-group-anagrams](https://github.com/Utsaghosh15/LeetCode/tree/master/0049-group-anagrams) |
 | [0076-minimum-window-substring](https://github.com/Utsaghosh15/LeetCode/tree/master/0076-minimum-window-substring) |
 | [0125-valid-palindrome](https://github.com/Utsaghosh15/LeetCode/tree/master/0125-valid-palindrome) |
 | [0316-remove-duplicate-letters](https://github.com/Utsaghosh15/LeetCode/tree/master/0316-remove-duplicate-letters) |
@@ -211,6 +213,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0001-two-sum](https://github.com/Utsaghosh15/LeetCode/tree/master/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Utsaghosh15/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0049-group-anagrams](https://github.com/Utsaghosh15/LeetCode/tree/master/0049-group-anagrams) |
 | [0076-minimum-window-substring](https://github.com/Utsaghosh15/LeetCode/tree/master/0076-minimum-window-substring) |
 | [0141-linked-list-cycle](https://github.com/Utsaghosh15/LeetCode/tree/master/0141-linked-list-cycle) |
 | [0169-majority-element](https://github.com/Utsaghosh15/LeetCode/tree/master/0169-majority-element) |
@@ -248,6 +251,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0015-3sum](https://github.com/Utsaghosh15/LeetCode/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/Utsaghosh15/LeetCode/tree/master/0016-3sum-closest) |
+| [0049-group-anagrams](https://github.com/Utsaghosh15/LeetCode/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/Utsaghosh15/LeetCode/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/Utsaghosh15/LeetCode/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/Utsaghosh15/LeetCode/tree/master/0088-merge-sorted-array) |
