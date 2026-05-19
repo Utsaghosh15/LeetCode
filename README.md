@@ -92,6 +92,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0200-number-of-islands](https://github.com/Utsaghosh15/LeetCode/tree/master/0200-number-of-islands) |
 | [0209-minimum-size-subarray-sum](https://github.com/Utsaghosh15/LeetCode/tree/master/0209-minimum-size-subarray-sum) |
 | [0287-find-the-duplicate-number](https://github.com/Utsaghosh15/LeetCode/tree/master/0287-find-the-duplicate-number) |
+| [0347-top-k-frequent-elements](https://github.com/Utsaghosh15/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/Utsaghosh15/LeetCode/tree/master/0349-intersection-of-two-arrays) |
 | [0455-assign-cookies](https://github.com/Utsaghosh15/LeetCode/tree/master/0455-assign-cookies) |
 | [0496-next-greater-element-i](https://github.com/Utsaghosh15/LeetCode/tree/master/0496-next-greater-element-i) |
@@ -217,6 +218,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0076-minimum-window-substring](https://github.com/Utsaghosh15/LeetCode/tree/master/0076-minimum-window-substring) |
 | [0141-linked-list-cycle](https://github.com/Utsaghosh15/LeetCode/tree/master/0141-linked-list-cycle) |
 | [0169-majority-element](https://github.com/Utsaghosh15/LeetCode/tree/master/0169-majority-element) |
+| [0347-top-k-frequent-elements](https://github.com/Utsaghosh15/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/Utsaghosh15/LeetCode/tree/master/0349-intersection-of-two-arrays) |
 | [0424-longest-repeating-character-replacement](https://github.com/Utsaghosh15/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
 | [0496-next-greater-element-i](https://github.com/Utsaghosh15/LeetCode/tree/master/0496-next-greater-element-i) |
@@ -256,6 +258,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0075-sort-colors](https://github.com/Utsaghosh15/LeetCode/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/Utsaghosh15/LeetCode/tree/master/0088-merge-sorted-array) |
 | [0169-majority-element](https://github.com/Utsaghosh15/LeetCode/tree/master/0169-majority-element) |
+| [0347-top-k-frequent-elements](https://github.com/Utsaghosh15/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/Utsaghosh15/LeetCode/tree/master/0349-intersection-of-two-arrays) |
 | [0455-assign-cookies](https://github.com/Utsaghosh15/LeetCode/tree/master/0455-assign-cookies) |
 | [0767-reorganize-string](https://github.com/Utsaghosh15/LeetCode/tree/master/0767-reorganize-string) |
@@ -265,10 +268,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0053-maximum-subarray](https://github.com/Utsaghosh15/LeetCode/tree/master/0053-maximum-subarray) |
 | [0169-majority-element](https://github.com/Utsaghosh15/LeetCode/tree/master/0169-majority-element) |
+| [0347-top-k-frequent-elements](https://github.com/Utsaghosh15/LeetCode/tree/master/0347-top-k-frequent-elements) |
 ## Counting
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/Utsaghosh15/LeetCode/tree/master/0169-majority-element) |
+| [0347-top-k-frequent-elements](https://github.com/Utsaghosh15/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0767-reorganize-string](https://github.com/Utsaghosh15/LeetCode/tree/master/0767-reorganize-string) |
 | [1034-subarrays-with-k-different-integers](https://github.com/Utsaghosh15/LeetCode/tree/master/1034-subarrays-with-k-different-integers) |
 ## Tree
@@ -423,5 +428,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0347-top-k-frequent-elements](https://github.com/Utsaghosh15/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0767-reorganize-string](https://github.com/Utsaghosh15/LeetCode/tree/master/0767-reorganize-string) |
+## Bucket Sort
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/Utsaghosh15/LeetCode/tree/master/0347-top-k-frequent-elements) |
+## Quickselect
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/Utsaghosh15/LeetCode/tree/master/0347-top-k-frequent-elements) |
 <!---LeetCode Topics End-->
