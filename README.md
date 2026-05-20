@@ -123,6 +123,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0070-climbing-stairs](https://github.com/Utsaghosh15/LeetCode/tree/master/0070-climbing-stairs) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Utsaghosh15/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Utsaghosh15/LeetCode/tree/master/0124-binary-tree-maximum-path-sum) |
+| [0509-fibonacci-number](https://github.com/Utsaghosh15/LeetCode/tree/master/0509-fibonacci-number) |
 | [0542-01-matrix](https://github.com/Utsaghosh15/LeetCode/tree/master/0542-01-matrix) |
 | [0943-sum-of-subarray-minimums](https://github.com/Utsaghosh15/LeetCode/tree/master/0943-sum-of-subarray-minimums) |
 ## Matrix
@@ -169,12 +170,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0002-add-two-numbers](https://github.com/Utsaghosh15/LeetCode/tree/master/0002-add-two-numbers) |
 | [0069-sqrtx](https://github.com/Utsaghosh15/LeetCode/tree/master/0069-sqrtx) |
 | [0070-climbing-stairs](https://github.com/Utsaghosh15/LeetCode/tree/master/0070-climbing-stairs) |
+| [0509-fibonacci-number](https://github.com/Utsaghosh15/LeetCode/tree/master/0509-fibonacci-number) |
 | [1430-find-the-k-beauty-of-a-number](https://github.com/Utsaghosh15/LeetCode/tree/master/1430-find-the-k-beauty-of-a-number) |
 | [1885-count-number-of-homogenous-substrings](https://github.com/Utsaghosh15/LeetCode/tree/master/1885-count-number-of-homogenous-substrings) |
 ## Memoization
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/Utsaghosh15/LeetCode/tree/master/0070-climbing-stairs) |
+| [0509-fibonacci-number](https://github.com/Utsaghosh15/LeetCode/tree/master/0509-fibonacci-number) |
 ## Simulation
 |  |
 | ------- |
@@ -428,6 +431,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0203-remove-linked-list-elements](https://github.com/Utsaghosh15/LeetCode/tree/master/0203-remove-linked-list-elements) |
 | [0206-reverse-linked-list](https://github.com/Utsaghosh15/LeetCode/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/Utsaghosh15/LeetCode/tree/master/0234-palindrome-linked-list) |
+| [0509-fibonacci-number](https://github.com/Utsaghosh15/LeetCode/tree/master/0509-fibonacci-number) |
 ## Interactive
 |  |
 | ------- |
