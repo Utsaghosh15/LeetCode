@@ -1,38 +1,28 @@
 class Solution {
 
-    public int climbStair(int n,int[] dp){
+    // public int climbStair(int n){
+
+    //  if(n <= 1)
+    //   return 1;
      
-     if(n == 0)
-      return 1; 
-
-     if(dp[n] != 0)
-      return dp[n];     
-     
-     return  dp[n] = (n >= 2 ? climbStair(n-2,dp) : 0) + climbStair(n-1,dp); 
-    }
-    
-    public int climbStairs(int n){
-
-     int[] dp = new int[n+1];
-
-     return climbStair(n,dp);
-    }
-
-
-    // public int climbStairs(int n) {
-     
-    //  int prev2 = 1;
-    //  int prev = 1;
-    //  int curri = 0;
-
-    //  for(int i=2;i<=n;i++){
-
-    //   curri = prev + prev2;
-
-    //   prev2 = prev;
-    //   prev = curri;  
-    //  }
-
-    //  return prev; 
+    //  return climbStair(n-1) + climbStair(n-2);
     // }
+
+    public int climbStair(int n,int[] result){
+
+     if(n <= 1)
+      return 1;
+
+     if(result[n] != 0)
+      return result[n]; 
+     
+     return result[n] = climbStair(n-1,result) + climbStair(n-2,result);
+    }
+
+    public int climbStairs(int n) {
+
+     int[] result = new int[n+1];
+
+     return climbStair(n,result);   
+    }
 }
