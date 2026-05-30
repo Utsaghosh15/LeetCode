@@ -4,20 +4,21 @@ class Solution {
      Stack<Character> stack = new Stack<>();
      StringBuilder result = new StringBuilder();
 
+
      for(int i=0;i<s.length();i++){
-
-       if(!stack.isEmpty() && stack.peek() == s.charAt(i)){
-
-        while(!stack.isEmpty() && stack.peek() == s.charAt(i))
-         stack.pop();
-       }
-       else
-        stack.push(s.charAt(i));  
+      
+      if(!stack.isEmpty() && s.charAt(i) == stack.peek()){
+       while(!stack.isEmpty() && s.charAt(i) == stack.peek())
+        stack.pop(); 
+      }
+      else{
+      stack.push(s.charAt(i)); 
+      }
      }
 
      while(!stack.isEmpty())
       result.append(stack.pop());
 
-     return result.reverse().toString(); 
+     return result.reverse().toString();
     }
 }
