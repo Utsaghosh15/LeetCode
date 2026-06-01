@@ -144,6 +144,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0020-valid-parentheses](https://github.com/Utsaghosh15/LeetCode/tree/master/0020-valid-parentheses) |
 | [0084-largest-rectangle-in-histogram](https://github.com/Utsaghosh15/LeetCode/tree/master/0084-largest-rectangle-in-histogram) |
 | [0143-reorder-list](https://github.com/Utsaghosh15/LeetCode/tree/master/0143-reorder-list) |
+| [0155-min-stack](https://github.com/Utsaghosh15/LeetCode/tree/master/0155-min-stack) |
 | [0234-palindrome-linked-list](https://github.com/Utsaghosh15/LeetCode/tree/master/0234-palindrome-linked-list) |
 | [0316-remove-duplicate-letters](https://github.com/Utsaghosh15/LeetCode/tree/master/0316-remove-duplicate-letters) |
 | [0402-remove-k-digits](https://github.com/Utsaghosh15/LeetCode/tree/master/0402-remove-k-digits) |
@@ -472,4 +473,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0973-k-closest-points-to-origin](https://github.com/Utsaghosh15/LeetCode/tree/master/0973-k-closest-points-to-origin) |
+## Design
+|  |
+| ------- |
+| [0155-min-stack](https://github.com/Utsaghosh15/LeetCode/tree/master/0155-min-stack) |
 <!---LeetCode Topics End-->
