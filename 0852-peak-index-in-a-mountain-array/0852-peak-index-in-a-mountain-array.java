@@ -3,8 +3,9 @@ class Solution {
 
      int low = 0;
      int high = arr.length-1;
+     int result = 0;
 
-     while(low < high){
+     while(low <= high){
       
       int mid = low+(high-low)/2;
 
@@ -12,10 +13,11 @@ class Solution {
         low = mid+1;
       } 
       else{
-        high = mid;
+        result = mid;
+        high = mid-1;
       }
      }
 
-     return low;   
+     return result;   
     }
 }
