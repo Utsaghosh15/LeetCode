@@ -108,6 +108,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0739-daily-temperatures](https://github.com/Utsaghosh15/LeetCode/tree/master/0739-daily-temperatures) |
 | [0852-peak-index-in-a-mountain-array](https://github.com/Utsaghosh15/LeetCode/tree/master/0852-peak-index-in-a-mountain-array) |
 | [0853-car-fleet](https://github.com/Utsaghosh15/LeetCode/tree/master/0853-car-fleet) |
+| [0875-koko-eating-bananas](https://github.com/Utsaghosh15/LeetCode/tree/master/0875-koko-eating-bananas) |
 | [0940-fruit-into-baskets](https://github.com/Utsaghosh15/LeetCode/tree/master/0940-fruit-into-baskets) |
 | [0943-sum-of-subarray-minimums](https://github.com/Utsaghosh15/LeetCode/tree/master/0943-sum-of-subarray-minimums) |
 | [0966-binary-subarrays-with-sum](https://github.com/Utsaghosh15/LeetCode/tree/master/0966-binary-subarrays-with-sum) |
@@ -367,6 +368,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0374-guess-number-higher-or-lower](https://github.com/Utsaghosh15/LeetCode/tree/master/0374-guess-number-higher-or-lower) |
 | [0704-binary-search](https://github.com/Utsaghosh15/LeetCode/tree/master/0704-binary-search) |
 | [0852-peak-index-in-a-mountain-array](https://github.com/Utsaghosh15/LeetCode/tree/master/0852-peak-index-in-a-mountain-array) |
+| [0875-koko-eating-bananas](https://github.com/Utsaghosh15/LeetCode/tree/master/0875-koko-eating-bananas) |
 | [1046-max-consecutive-ones-iii](https://github.com/Utsaghosh15/LeetCode/tree/master/1046-max-consecutive-ones-iii) |
 ## Bit Manipulation
 |  |
