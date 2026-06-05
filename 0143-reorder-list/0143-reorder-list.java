@@ -10,54 +10,52 @@
  */
 class Solution {
 
-    public ListNode reverse(ListNode node){
-
-
-     if(node == null)
-      return node;
-
-     ListNode curr = node;
+    public ListNode reverse(ListNode head){
+     
      ListNode prev = null;
-     ListNode nxt = null;
+     ListNode curr = head;
+     ListNode nextNode = null;
 
      while(curr != null){
-      nxt = curr.next;
+
+      nextNode = curr.next;
       curr.next = prev;
       prev = curr;
-      curr = nxt;
-     }    
+      curr = nextNode;  
+     }
 
      return prev;
     }
 
     public void reorderList(ListNode head) {
+     
+      ListNode slow = head;
+      ListNode fast = head;
 
-     ListNode fast = head;
-     ListNode slow = head;
+      while(fast != null && fast.next != null){
+        fast = fast.next.next;
+        slow = slow.next;
+      }
 
-     while(fast != null && fast.next != null){
+      ListNode secondHalfHead = slow.next;
+      slow.next = null;
 
-      fast = fast.next.next;
-      slow = slow.next;  
-     }
+      ListNode reversedSecond = reverse(secondHalfHead);
 
-     ListNode reverse_slow = reverse(slow);
-     int count = 2;
-     fast = head;
+      ListNode first = head;
+      ListNode second = reversedSecond;
 
-     while(reverse_slow != null && reverse_slow != fast){
+      while(second != null){
 
-      if(count%2 == 0){
-       ListNode temp_fast = fast.next; 
-       fast.next = reverse_slow;
-       fast = temp_fast;
-      } 
-      else{
-       ListNode temp_reverse_slow = reverse_slow.next; 
-       reverse_slow.next = fast;
-       reverse_slow = temp_reverse_slow;
-      } 
-      count++;
-     }
+        ListNode firstNext = first.next;
+        ListNode secondNext = second.next;
+
+        first.next = second;
+        second.next = firstNext;
+
+        first = firstNext;
+        second = secondNext;
+      }
+     
     }
 }
