@@ -17,30 +17,26 @@ class Solution {
 
     boolean result = true;
 
-    public int isBalanceTree(TreeNode node){
-
+    public int isBalancedBTree(TreeNode node){
 
      if(node == null)
       return 0;
-     
-     int left = isBalanceTree(node.left);
-     int right = isBalanceTree(node.right);
 
-     if(Math.abs(left-right) > 1){
-       result = false;
-       return 0; 
-     }
+     int left = isBalancedBTree(node.left);
+     int right = isBalancedBTree(node.right);
 
-     return Math.max(left,right)+1;
+     if(Math.abs(left-right) > 1)
+      result = false;
+
+     return Math.max(left,right)+1;     
     }
+
 
     public boolean isBalanced(TreeNode root) {
 
-     if(root == null)
-      return true;
+     
+     isBalancedBTree(root);
 
-     isBalanceTree(root); 
-
-     return result;   
+     return result;
     }
 }
