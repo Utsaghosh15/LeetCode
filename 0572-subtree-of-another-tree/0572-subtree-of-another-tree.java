@@ -15,31 +15,32 @@
  */
 class Solution {
 
-
-    public boolean SubTreeTraverse(TreeNode node,TreeNode subNode){
-     
-     if(node == null && subNode == null)
-       return true;
-
-     if(node == null || subNode == null)
-       return false;
-
-     return node.val == subNode.val && SubTreeTraverse(node.left,subNode.left) && SubTreeTraverse(node.right,subNode.right);         
-    } 
-
-    public boolean isSubTree(TreeNode node,TreeNode subNode){
+    public boolean isSubTree(TreeNode node, TreeNode subRoot){
 
      if(node == null)
       return false;
 
-     if(node.val == subNode.val && SubTreeTraverse(node,subNode))
-       return true;
+     boolean result = false;  
 
-     return isSubTree(node.left,subNode) || isSubTree(node.right,subNode);     
+     if(node.val == subRoot.val)
+       result = isSameTree(node,subRoot); 
+
+     return result || isSubTree(node.left,subRoot) || isSubTree(node.right,subRoot); 
+    }
+
+    public boolean isSameTree(TreeNode node1, TreeNode node2){
+
+      if(node1 == null && node2 == null)
+        return true;
+
+      if(node1 == null || node2 == null)
+        return false;
+
+      return node1.val == node2.val && isSameTree(node1.left,node2.left) && isSameTree(node1.right,node2.right);      
     }
 
     public boolean isSubtree(TreeNode root, TreeNode subRoot) {
 
-     return isSubTree(root,subRoot); 
+      return isSubTree(root,subRoot);  
     }
 }
