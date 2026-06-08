@@ -15,19 +15,21 @@
  */
 class Solution {
 
-    public boolean isSametree(TreeNode nodeOne,TreeNode nodeTwo){
-     
-     if(nodeOne == null && nodeTwo == null)
+    public boolean isSameBTree(TreeNode node1, TreeNode node2){
+
+     if(node1 == null && node2 == null)
       return true;
 
-     if(nodeOne == null || nodeTwo == null)
+     if(node1 == null || node2 == null)
       return false;
 
-     return nodeOne.val == nodeTwo.val && isSametree(nodeOne.left,nodeTwo.left) && isSametree(nodeOne.right,nodeTwo.right);  
+     return node1.val == node2.val && isSameBTree(node1.left,node2.left) && isSameBTree(node1.right,node2.right);     
     }
+
 
     public boolean isSameTree(TreeNode p, TreeNode q) {
 
-     return isSametree(p,q);
+     
+     return isSameBTree(p,q);
     }
 }
