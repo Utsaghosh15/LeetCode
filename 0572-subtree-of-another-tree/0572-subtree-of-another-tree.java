@@ -20,12 +20,11 @@ class Solution {
      if(node == null)
       return false;
 
-     boolean result = false;  
 
-     if(node.val == subRoot.val)
-       result = isSameTree(node,subRoot); 
+     if(node.val == subRoot.val && isSameTree(node,subRoot))
+       return true; 
 
-     return result || isSubTree(node.left,subRoot) || isSubTree(node.right,subRoot); 
+     return isSubTree(node.left,subRoot) || isSubTree(node.right,subRoot); 
     }
 
     public boolean isSameTree(TreeNode node1, TreeNode node2){
