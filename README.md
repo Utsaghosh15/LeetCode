@@ -27,6 +27,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0572-subtree-of-another-tree](https://github.com/Utsaghosh15/LeetCode/tree/master/0572-subtree-of-another-tree) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/Utsaghosh15/LeetCode/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0733-flood-fill](https://github.com/Utsaghosh15/LeetCode/tree/master/0733-flood-fill) |
+| [1448-count-good-nodes-in-binary-tree](https://github.com/Utsaghosh15/LeetCode/tree/master/1448-count-good-nodes-in-binary-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/Utsaghosh15/LeetCode/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## Breadth-First Search
 |  |
@@ -48,6 +49,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0637-average-of-levels-in-binary-tree](https://github.com/Utsaghosh15/LeetCode/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0733-flood-fill](https://github.com/Utsaghosh15/LeetCode/tree/master/0733-flood-fill) |
 | [1036-rotting-oranges](https://github.com/Utsaghosh15/LeetCode/tree/master/1036-rotting-oranges) |
+| [1448-count-good-nodes-in-binary-tree](https://github.com/Utsaghosh15/LeetCode/tree/master/1448-count-good-nodes-in-binary-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/Utsaghosh15/LeetCode/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## Union Find
 |  |
@@ -332,6 +334,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0543-diameter-of-binary-tree](https://github.com/Utsaghosh15/LeetCode/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/Utsaghosh15/LeetCode/tree/master/0572-subtree-of-another-tree) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/Utsaghosh15/LeetCode/tree/master/0637-average-of-levels-in-binary-tree) |
+| [1448-count-good-nodes-in-binary-tree](https://github.com/Utsaghosh15/LeetCode/tree/master/1448-count-good-nodes-in-binary-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/Utsaghosh15/LeetCode/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## Binary Tree
 |  |
@@ -355,6 +358,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0543-diameter-of-binary-tree](https://github.com/Utsaghosh15/LeetCode/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/Utsaghosh15/LeetCode/tree/master/0572-subtree-of-another-tree) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/Utsaghosh15/LeetCode/tree/master/0637-average-of-levels-in-binary-tree) |
+| [1448-count-good-nodes-in-binary-tree](https://github.com/Utsaghosh15/LeetCode/tree/master/1448-count-good-nodes-in-binary-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/Utsaghosh15/LeetCode/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## Binary Search
 |  |
