@@ -14,11 +14,13 @@
  * }
  */
 class Solution {
-    
-    public void rightSide(TreeNode node,List<Integer> result){
+
+    public List<Integer> rightSideViewTree(TreeNode node){
+
+     List<Integer> result = new LinkedList<>();   
 
      if(node == null)
-      return; 
+      return result;   
 
      Queue<TreeNode> queue = new LinkedList<>();
      queue.add(node);
@@ -28,31 +30,30 @@ class Solution {
 
       while(level_count > 0){
 
-        TreeNode temp = queue.poll();
+       TreeNode temp_node = queue.poll(); 
 
-        if(level_count == 1)
-         result.add(temp.val);
+       if(level_count == 1)
+         result.add(temp_node.val);
 
-        if(temp.left != null)
-          queue.add(temp.left);
+       if(temp_node.left != null)
+         queue.add(temp_node.left);
 
-        if(temp.right != null)
-          queue.add(temp.right);
+       if(temp_node.right != null)  
+         queue.add(temp_node.right);
 
-        level_count-=1;    
+
+       level_count-=1; 
       }
 
-      if(level_count == 0)
-        level_count = queue.size();
+      level_count = queue.size();
      }
+
+     return result; 
     }
+    
     
     public List<Integer> rightSideView(TreeNode root) {
 
-     List<Integer> result = new ArrayList<>();
-
-     rightSide(root,result);
-
-     return result;
+     return rightSideViewTree(root);
     }
 }
