@@ -10,23 +10,22 @@
 
 class Solution {
 
-    public TreeNode LCA(TreeNode node,TreeNode p,TreeNode q){
+    public TreeNode LCATree(TreeNode node, TreeNode p, TreeNode q){
 
-     if(node == null)
-      return null;
+      if(node == null)
+       return null;
 
-     if(node.val > p.val && node.val > q.val){
-      return LCA(node.left,p,q);
-     }
-     else if(node.val < p.val && node.val < q.val){
-      return LCA(node.right,p,q);
-     }
+      if(node.val > p.val && node.val > q.val)
+        return LCATree(node.left,p,q);
 
-     return node;    
+      if(node.val < p.val && node.val < q.val)
+        return LCATree(node.right,p,q);
+
+      return node;    
     }
 
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
 
-     return LCA(root,p,q);   
+      return LCATree(root,p,q);
     }
 }
