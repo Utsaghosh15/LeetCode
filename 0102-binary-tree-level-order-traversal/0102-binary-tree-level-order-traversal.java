@@ -15,47 +15,46 @@
  */
 class Solution {
 
-    public void levelOrder(TreeNode node, List<List<Integer>> result){
-     
+    public List<List<Integer>> levelOrderTraversal(TreeNode node){
+  
+     List<List<Integer>> result = new ArrayList<>();
+
      if(node == null)
-      return;
+      return result; 
 
      Queue<TreeNode> queue = new LinkedList<>();
      queue.add(node);
      int level_count = queue.size();
 
+
      while(!queue.isEmpty()){
-      
-      List<Integer> list = new LinkedList<>();
 
-      while(level_count > 0){
+       List<Integer> list = new LinkedList<>(); 
 
-       TreeNode temp_node = queue.poll(); 
+       while(level_count > 0){
 
-       if(temp_node.left != null) 
-        queue.add(temp_node.left);
-      
-       if(temp_node.right != null)
-        queue.add(temp_node.right);
+        TreeNode temp_node = queue.poll();
 
-       list.add(temp_node.val);
-       level_count-=1;
-      }
+        if(temp_node.left != null)
+         queue.add(temp_node.left);
 
-      if(level_count == 0)
+        if(temp_node.right != null)
+         queue.add(temp_node.right);
+
+        list.add(temp_node.val);
+        level_count-=1; 
+       }
+
        level_count = queue.size();
-
-      result.add(list);
+       result.add(list); 
      }
-
+     
+     return result;
     }
+
 
     public List<List<Integer>> levelOrder(TreeNode root) {
 
-     List<List<Integer>> result = new ArrayList<>();  
-
-     levelOrder(root,result);
-
-     return result; 
+     return levelOrderTraversal(root);
     }
 }
