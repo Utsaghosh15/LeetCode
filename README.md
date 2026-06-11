@@ -50,6 +50,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0637-average-of-levels-in-binary-tree](https://github.com/Utsaghosh15/LeetCode/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0695-max-area-of-island](https://github.com/Utsaghosh15/LeetCode/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/Utsaghosh15/LeetCode/tree/master/0733-flood-fill) |
+| [0994-rotting-oranges](https://github.com/Utsaghosh15/LeetCode/tree/master/0994-rotting-oranges) |
 | [1036-rotting-oranges](https://github.com/Utsaghosh15/LeetCode/tree/master/1036-rotting-oranges) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/Utsaghosh15/LeetCode/tree/master/1448-count-good-nodes-in-binary-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/Utsaghosh15/LeetCode/tree/master/1544-count-good-nodes-in-binary-tree) |
@@ -123,6 +124,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0973-k-closest-points-to-origin](https://github.com/Utsaghosh15/LeetCode/tree/master/0973-k-closest-points-to-origin) |
 | [0974-subarray-sums-divisible-by-k](https://github.com/Utsaghosh15/LeetCode/tree/master/0974-subarray-sums-divisible-by-k) |
 | [0977-squares-of-a-sorted-array](https://github.com/Utsaghosh15/LeetCode/tree/master/0977-squares-of-a-sorted-array) |
+| [0994-rotting-oranges](https://github.com/Utsaghosh15/LeetCode/tree/master/0994-rotting-oranges) |
 | [1034-subarrays-with-k-different-integers](https://github.com/Utsaghosh15/LeetCode/tree/master/1034-subarrays-with-k-different-integers) |
 | [1036-rotting-oranges](https://github.com/Utsaghosh15/LeetCode/tree/master/1036-rotting-oranges) |
 | [1046-max-consecutive-ones-iii](https://github.com/Utsaghosh15/LeetCode/tree/master/1046-max-consecutive-ones-iii) |
@@ -149,6 +151,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0542-01-matrix](https://github.com/Utsaghosh15/LeetCode/tree/master/0542-01-matrix) |
 | [0695-max-area-of-island](https://github.com/Utsaghosh15/LeetCode/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/Utsaghosh15/LeetCode/tree/master/0733-flood-fill) |
+| [0994-rotting-oranges](https://github.com/Utsaghosh15/LeetCode/tree/master/0994-rotting-oranges) |
 | [1036-rotting-oranges](https://github.com/Utsaghosh15/LeetCode/tree/master/1036-rotting-oranges) |
 ## Stack
 |  |
