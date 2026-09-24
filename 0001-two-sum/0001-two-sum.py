@@ -1,7 +1,7 @@
 class Solution:
     def twoSum(self, nums: list[int], target: int) -> list[int]:
-        result = []
-        seen = {}
+        
+        seen= {}
 
         for index, num in enumerate(nums):
             complement = target - num
@@ -11,4 +11,4 @@ class Solution:
 
             seen[num] = index
 
-        return result     
+        return []             
